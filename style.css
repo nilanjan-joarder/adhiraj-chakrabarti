@@ -1540,12 +1540,13 @@ textarea {
         padding: 74px;
     }
 
-    #self-summary {
-        width: 985px;
-        margin-left: 150px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+#self-summary {
+    width: 800px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 185px;
+}
 
     .summary {
         height: 468px;
