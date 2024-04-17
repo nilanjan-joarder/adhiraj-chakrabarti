@@ -13,31 +13,89 @@
     <nav class="nav-bar">
         <img src="images/logo.png" alt="" srcset="" class="logo">
         <div class="links">
-            <a href="index.html" style="text-decoration: none">
+            <a href="#" style="text-decoration: none">
                 <p class="home">Home</p>
             </a>
-            <a href="credentials.html" style="text-decoration: none;">
+            <a href="#" style="text-decoration: none;">
                 <p class="about">About</p>
             </a>
             <a href="project.html" style="text-decoration: none;">
                 <p class="works">Works</p>
             </a>
-            <a href="contact.html" style="text-decoration: none;">
+            <a href="#" style="text-decoration: none;">
                 <p class="contact">Contact</p>
             </a>
         </div>
-        <a href="contact.html"><button class="lets-talk">Let's talk</button></a>
+        <button class="lets-talk">Let's talk</button>
     </nav>
-    <div style="display: flex;">
-        <p id="coming-soon">Coming Soon</p>
-    <div class="container">
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-  </div>
-</div>
-<footer style="padding-bottom: 20px; margin-top:350px;">
-    <p id="footer">© All rights reserved by Adhiraj Chakrabarti</p>
-</footer>
-    </body>
+    <img src="images/settings.png" alt="" srcset="" id="hambarger" onclick="menu()">
+
+
+    <div id="hambargarmenu">
+      <img src="images/close.png" alt="" srcset="" id="close-menu" onclick="closemenu()">
+      <a href="#heading0" style="text-decoration: none"><p  id="home" onclick="closemenu()">Home</p></a>
+      <a href="#heading2" style="text-decoration: none"><p  id="about" onclick="closemenu()">About</p></a>
+      <a href="#heading4" style="text-decoration: none"><p  id="work" onclick="closemenu()">Works</p></a>
+      <a href="#heading4" style="text-decoration: none"><p  id="contact" onclick="closemenu()">Contact</p></a>
+    </div>
+    <div class="first-row-profile">
+        <div class="profile-photo">
+            <img src="images/profile-picture.jpg" id="profile-photo">
+        </div>
+        <p id="self-summary">SELF-SUMMARY</p>
+        <div class="summary">
+            <img src="images/icon2.png" id="icon2">
+            <p id="full-name-profile"> Adhiraj Charkrabarti</p>
+            <p id="name-description-profile">I'm all about creating content that sparks imagination and inspires action.
+                From engaging videos to thought-provoking blogs, I'm here to blend creativity with authenticity and take
+                you on a journey of exploration and inspiration. Let's discover the power of storytelling together!</p>
+        </div>
+    </div>
+    <div class="second-row-profile">
+        <div class="experience-profile">
+            <p id="box-title-profile">EXPERIENCE</p>
+            <p id="experience-period">Feb 2023 - Present</p>
+            <p id="experience-domain">Radio Jockey</p>
+            <p id="experience-company">0.8 mhz fm community radio JU</p>
+            <p id="experience-period">Jun 2023 - Jul 2023</p>
+            <p id="experience-domain">Content Curator</p>
+            <p id="experience-company">Team Everest NGO</p>
+            <p id="experience-period">Sep 2021 - Nov 2021</p>
+            <p id="experience-domain">Published Author</p>
+            <p id="experience-company">Spread Those Inks</p>
+            <p id="experience-period">Nov 2020 - Dec 2020</p>
+            <p id="experience-domain">Digital Marketing Intern</p>
+            <p id="experience-company">knowledge Plus</p>
+
+
+
+        </div>
+        <div class="education-profile">
+            <p id="box-title-profile">EDUCATION</p>
+            <p id="education-period">2022 - Present</p>
+            <p id="education-company">St. Xavier's College (Autonomous), Kolkata</p>
+            <p id="education-domain">Bachelor of Science, Mass Communication and videoography</p>
+            <p id="education-period">2009 - 2022</p>
+            <p id="education-company">St. Xavier's Institution</p>
+            <p id="education-domain">High School Diploma, Humanities/Humanistic Studies</p>
+
+        </div>
+
+        <div class="connect-profile">
+            <img src="images/icon2.png"
+            id="icon2">
+            <p id="lets-work-profile">Let's <p id="lets-work-profile">work <b style="color: #5975F0;;">together.</b></p> </p>
+            <a href="contact.html"><img src="images/icon.svg" alt="" srcset="" id="detail-icon3"></a>
+        </div>
+
+    </div>
+    <footer style="padding-bottom: 20px; width: 1130px;">
+       
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+
+
 </html>
