@@ -1690,7 +1690,7 @@ textarea {
     }
 
     #footer {
-        
+        /* display: none; */
         color: #878787;
     }
 
@@ -1769,6 +1769,74 @@ textarea {
         border: none;
         font-family: poppins;
         font-size: 30px;
+    }
+    #about-me-description-credentials {
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 20px;
+    }
+    #about-me-credentials {
+        color: white;
+        font-size: 40px;
+    }
+    #experience-credentials {
+        color: white;
+        font-size: 40px;
+        margin-top: 100px;
+    }
+    #experience-domain-credentials {
+        margin-top: 5px;
+        color: #5B78f6;
+        font-size: 20px;
+    }
+    #experience-period-credentials {
+        margin-top: 30px;
+        color: #878787;
+        font-size: 20px;
+    }
+    #experience-company-credentials {
+        margin-top: 5px;
+        color: #878787;
+        font-size: 20px;
+    }
+    #education-credentials {
+        color: white;
+        font-size: 40px;
+        margin-top: 100px;
+    }
+    #education-period-credentials {
+        margin-top: 40px;
+        color: #878787;
+        font-size: 20px;
+    }
+    #education-company-credentials {
+        margin-top: 5px;
+        color: #5B78f6;
+        font-size: 20px;
+    }
+    #education-domain-credentials {
+        margin-top: 5px;
+        color: #878787;
+        font-size: 20px;
+    }
+    #skill-credentials {
+        color: white;
+        font-size: 40px;
+        margin-top: 100px;
+    }#credential-description {
+        color: white;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .skill {
+        color: white;
+        font-size: 20px;
+    }
+    #skill-description {
+        color: #878787;
+        font-size: 15px;
+        margin-top: 5px;
     }
     .extra {
         display: block;
