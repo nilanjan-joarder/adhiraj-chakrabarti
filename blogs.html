@@ -28,8 +28,19 @@
         </div>
         <a href="contact.html"><button class="lets-talk">Let's talk</button></a>
     </nav>
+    <img src="images/settings.png" alt="" srcset="" id="hambarger" onclick="menu()">
+
+
+    <div id="hambargarmenu">
+      <img src="images/close.png" alt="" srcset="" id="close-menu" onclick="closemenu()">
+      <a href="#heading0" style="text-decoration: none"><p  id="home" onclick="closemenu()">Home</p></a>
+      <a href="#heading2" style="text-decoration: none"><p  id="about" onclick="closemenu()">About</p></a>
+      <a href="#heading4" style="text-decoration: none"><p  id="work" onclick="closemenu()">Works</p></a>
+      <a href="#heading4" style="text-decoration: none"><p  id="contact" onclick="closemenu()">Contact</p></a>
+    
+    </div>
     <div style="display: flex;">
-        <p id="coming-soon">Coming Soon</p>
+        <p id="coming-soon">Coming&nbsp;Soon</p>
     <div class="container">
     <div class="dot"></div>
     <div class="dot"></div>
@@ -39,5 +50,7 @@
 <footer style="padding-bottom: 20px; margin-top:350px;">
     <p id="footer">© All rights reserved by Adhiraj Chakrabarti</p>
 </footer>
+<script src="main.js"></script>
+
     </body>
 </html>
