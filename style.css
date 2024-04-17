@@ -1656,4 +1656,24 @@ textarea {
         opacity: 0.5;
         height: 100px;
     }
+
+
+    /* ----------------------------------------------------------------- */
+
+    #coming-soon {
+        font-size: 50px;
+        color: white;
+        margin-top: 120%;
+        margin-left: 46%;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 134%;
+        margin-left: 20px;
+    }
+    #footer {
+        display: none;
+        color: #878787;
+    }
 }
