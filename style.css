@@ -1391,13 +1391,19 @@ opacity: 1;
         margin-top: 84px;
         position: fixed;
     }
+    .logo {
+        height: 100px;
+        width: 170px;
+        margin-left: 100px;
+        margin-top: 220px;
+    }
 
     #home {
         color: white;
         font-size: 40px;
         margin-top: 400px;
         writing-mode: horizontal-tb;
-        margin-left: 140px;
+        margin-left: -150px;
         width: fit-content;
 
     }
@@ -1405,27 +1411,38 @@ opacity: 1;
     #about {
         color: white;
         font-size: 40px;
-        margin-top: 550px;
+        margin-top: 500px;
         writing-mode: horizontal-tb;
-        margin-left: -120px;
+        margin-left: -150px;
     }
 
     #contact {
         color: white;
         font-size: 40px;
-        margin-top: 700px;
+        margin-top:600px;
         writing-mode: horizontal-tb;
-        margin-left: -130px;
+        margin-left: -160px;
     }
 
     #work {
         color: white;
         font-size: 40px;
-        margin-top: 840px;
+        margin-top: 700px;
         writing-mode: horizontal-tb;
-        margin-left: -120px;
+        margin-left: -150px;
     }
-
+    .lets-talk {
+        width: 190px;
+        height: 60px;
+        border-radius: 27px;
+        color: white;
+        background-color: rgb(56, 56, 56);
+        border: none;
+        cursor: pointer;
+        margin-top: 900px;
+        margin-left: -180px;
+        font-size: 25px;
+    }
     .profile {
         margin-left: -90px;
         margin-top: 0px;
