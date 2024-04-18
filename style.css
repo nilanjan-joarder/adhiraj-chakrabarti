@@ -1335,7 +1335,7 @@ opacity: 1;
     column-gap: 20px;
     height: 100px;
 }
-.social {
+.social-service-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2292,6 +2292,7 @@ opacity: 1;
     opacity: 0.5;
     height: 110px;
 }
+
 #footer-services{
 display: none;
 }
