@@ -2231,67 +2231,11 @@ opacity: 1;
     height: 110px;
 }
 .social-profiles-services-service-page {
-    height: 500px;
-    width: 1145px;
-    background-image: linear-gradient(to bottom right, #202020, #131313);
-    border-radius: 50px;
-    margin-top: 50px;
-    margin-left: 70px;
-    display: block;
-    padding-top: 5px;
+
+    display: none;
+ 
 }
 
-.profile-box-services-service-page {
-    height: 210px;
-    width: 560px;
-    background-image: linear-gradient(to bottom right, #202020, #131313);
-    border: 0.2px solid rgb(91, 91, 91);
-    border-radius: 30px;
-    margin-top: 50px;
-    margin-left: 270px;
-    margin-bottom: 20px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
-.social-icons-services-service-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
-    height: 100px;
-}
-
-.social-service-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    background-image: linear-gradient(to bottom right, #202020, #131313);
-    border: 0.2px solid rgb(91, 91, 91);
-}
-#details-service-page {
-    color: #878787;
-    margin-left: 80px;
-    margin-top: 50px;
-    font-size: 30px;
-}
-#title-service-page {
-    font-size: 60px;
-    color: #ffffff;
-    margin-left: 80px;
-}
-#detail-icon2-service-page {
-    display: flex;
-    margin-left: 870px;
-    margin-top: -140px;
-    cursor: pointer;
-    opacity: 0.5;
-    height: 110px;
-}
 
 #footer-services{
 display: none;
