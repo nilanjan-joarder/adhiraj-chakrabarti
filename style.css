@@ -741,7 +741,9 @@ span {
 #icon4 {
     margin-left: 600px;
 }
-
+#icon4-contact-page {
+    margin-left: 600px;
+}
 #lets-work-contact {
     margin-left: 46px;
     font-size: 40px;
@@ -1373,7 +1375,7 @@ opacity: 1;
 
     #hambargarmenu {
         position: fixed;
-        margin-top: -100px;
+        margin-top: -120px;
         height: 100%;
         width: 50%;
         background-color: black;
@@ -1665,6 +1667,7 @@ opacity: 1;
 
 
     /* ------------------------------------------------- */
+    /* profile page */
     .first-row-profile {
 
         display: block;
@@ -1845,6 +1848,8 @@ opacity: 1;
 
     /* ----------------------------------------------------------------- */
 
+    /* credentials page */
+
     .first-row-credentials {
         display: block;
 
@@ -1993,7 +1998,7 @@ opacity: 1;
     }
 
     /* ------------------------------------------------------------------------------------------- */
-
+/* services offered page */
     .first-row-services {
         display: block;
     }
@@ -2231,13 +2236,111 @@ opacity: 1;
     height: 110px;
 }
 .social-profiles-services-service-page {
-
-    display: none;
- 
+ display: none;
 }
-
 
 #footer-services{
 display: none;
+}
+#icon4-contact-page {
+    margin-left: 600px;
+}
+
+/* ---------------------------------------------------------- */
+/* contact page  */
+
+.first-row-contact {
+display: block;
+}
+.contact-informations {
+    margin-left: -130px;
+    height: 800px;
+    width: 450px;
+}
+#contact-info-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+.social-box {
+    height: 88px;
+    width: 98px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right bottom, rgb(32, 32, 32), rgb(19, 19, 19));
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.right {
+    margin-top: 55px;
+    margin-left: 20px;
+}
+span {
+    font-size: 25px;
+    color: rgb(135, 135, 135);
+}
+h4 {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+#social-info-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.contact-form {
+    height: 710px;
+    width: 590px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-left: -130px;
+    margin-top: 100px;
+}
+#lets-work-contact {
+    margin-left: 46px;
+    font-size: 40px;
+    margin-top: -10px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: -20px;
+}
+#input-text {
+    width: 465px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border: 0.1px solid gray;
+}
+#message-text {
+    width: 465px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border: 0.1px solid gray;
+}
+#send-message {
+    width: 490px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+    border: 0.1px solid gray;
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    cursor: pointer;
+}
+#icon4-contact-page {
+    margin-left: 510px;
+    height: 80px;
 }
 }
