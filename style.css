@@ -34,6 +34,10 @@ body {
     display: none;
 }
 
+#hambarger1 {
+    display: none;
+}
+
 #hambargarmenu {
     display: none;
 }
@@ -1222,7 +1226,12 @@ textarea {
         margin-left: 50px;
         margin-top: 50px;
     }
-
+    #hambarger1 {
+        display: flex;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
 
 
     #hambargarmenu {
@@ -1537,9 +1546,11 @@ textarea {
     }
 
     #profile-photo {
-        height: 840px;
+        height: 918px;
+        width: 850px;
         border-radius: 30px;
-        padding: 74px;
+        padding: 0px;
+        margin-top: 5px;
     }
 
     #self-summary {
