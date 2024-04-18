@@ -169,13 +169,24 @@ marquee {
     padding-top: 30px;
     width: 300px;
 }
-
+#signature-services {
+    padding-top: 30px;
+    width: 300px;
+}
 #details {
     color: #878787;
     margin-left: 40px;
 }
-
+#details-services{
+    color: #878787;
+    margin-left: 40px;
+}
 #title {
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+#title-services {
     font-size: 30px;
     color: #ffffff;
     margin-left: 40px;
@@ -187,6 +198,16 @@ marquee {
     margin-top: -60px;
     cursor: pointer;
     opacity: 0.5;
+}
+#detail-icon6 {
+    display: flex;
+    margin-left: 230px;
+    margin-top: -60px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+#detail-icon6:hover {
+    opacity: 1;
 }
 
 #detail-icon2:hover {
@@ -284,7 +305,17 @@ marquee {
     height: 40px;
     width: 50px;
 }
+#detail-icon2-service-page {
+    display: flex;
+    margin-left: 230px;
+    margin-top: -60px;
+    cursor: pointer;
+    opacity: 0.5;
+}
 
+#detail-icon2-service-page:hover {
+    opacity: 1;
+}
 #detail-icon3 {
     display: flex;
     margin-left: 430px;
@@ -404,7 +435,9 @@ marquee {
 #icon2 {
     margin-left: 46px;
 }
-
+#icon2-services-page{
+    margin-left: 46px;
+}
 #lets-work {
     margin-left: 46px;
     font-size: 30px;
@@ -421,6 +454,10 @@ footer {
 }
 
 #footer {
+    color: #878787;
+}
+#footer-services
+{
     color: #878787;
 }
 
@@ -582,7 +619,15 @@ footer {
     color: white;
     letter-spacing: 2px;
 }
-
+#detail-icon5{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -70px;
+    opacity: 0.5;
+    }
+    #detail-icon5:hover {
+        opacity: 1;
+    }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
 
@@ -1120,14 +1165,56 @@ textarea {
     border-radius: 20px;
 }
 
-#service-heading {
+#service-heading-1 {
     color: #878787;
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
-#service-heading-description {
+#service-heading-description-1 {
+    color: white;
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 270px;
+}
+#service-heading-2 {
+    color: #878787;
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#service-heading-description-2 {
+    color: white;
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 270px;
+}
+#service-heading-3 {
+    color: #878787;
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#service-heading-description-3 {
+    color: white;
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 270px;
+}
+#service-heading-4 {
+    color: #878787;
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#service-heading-description-4 {
     color: white;
     margin-left: 36px;
     margin-top: 10px;
@@ -1157,8 +1244,22 @@ textarea {
     display: flex;
     margin-left: 450px;
     margin-top: -100px;
+    opacity: 0.5;
 }
-
+#detail-icon4:hover {
+    opacity: 1;
+}
+#detail-icon4-service-page
+{
+    display: flex;
+    margin-left: 450px;
+    margin-top: -100px;
+    opacity: 0.5;
+}
+#detail-icon4-service-page:hover
+{
+opacity: 1;
+}
 #lets-work-services {
     margin-left: 46px;
     font-size: 45px;
@@ -1706,7 +1807,6 @@ textarea {
     }
 
 
-
     /* ----------------------------------------------------------------- */
 
     .first-row-credentials {
@@ -1849,10 +1949,313 @@ textarea {
         font-size: 15px;
         margin-top: 5px;
     }
+
     .extra {
         display: block;
         width: 790px;
         height: 1px;
     }
 
+    /* ------------------------------------------------------------------------------------------- */
+
+    .first-row-services {
+        display: block;
+    }
+    #my-offerings {
+        color: #ffffff;
+        font-size: 104px;
+        text-transform: uppercase;
+        letter-spacing: -01px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5px;
+        margin-bottom: 1400px;
+        margin-top: -1480px;
+        width: 940px;
+    }
+    .left-service {
+        width: 1145px;
+        height: 1303px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border-radius: 100px;
+        margin-top: 500px;
+        margin-left: -111px;
+    }
+    .right-service {
+        width: 1145px;
+        height: 4300px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border-radius: 100px;
+        margin-top: -31px;
+        margin-left: -110px;
+    }
+    .service-row-1 {
+    display: block;
+    padding-top: 50px;
+    }
+    .service-row-2 {
+    display: block;
+    }
+    .services-details {
+        height: 900px;
+        width: 850px;
+        background-image: linear-gradient(to bottom right, #313131, #131313);
+        border-radius: 50px;
+        margin-left: 140px;
+        margin-top: 80px;
+    }
+    .credentials-services {
+        margin-top: 50px;
+        margin-left: 70px;
+        height: 500px;
+        width: 1145px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border-radius: 50px;
+    }
+    
+    .connect-services {
+        height: 500px;
+        width: 1145px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border-radius: 50px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .social-profiles-services {
+        height: 500px;
+        width: 1145px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border-radius: 50px;
+        margin-top: 50px;
+        margin-left: 70px;
+        display: block;
+    }
+    .extra2 {
+        display: block;
+        width: 1300px;
+        height: 1px;
+    }
+    #services-images-1 {
+        margin-top: 190px;
+        height: 120px;
+        margin-left: 190px;
+    }
+    #services-description-1 {
+        color: white;
+        text-transform: uppercase;
+        margin-top: -115px;
+        margin-left: 500px;
+        font-size: 45px;
+    }
+    #services-images-2 {
+        margin-top: 180px;
+        height: 150px;
+        margin-left: 220px;
+    }
+    #services-description-2 {
+        color: white;
+        text-transform: uppercase;
+        margin-top: -125px;
+        margin-left: 500px;
+        font-size: 45px;
+    }
+    #services-images-3 {
+        margin-top: 190px;
+        height: 120px;
+        margin-left: 185px;
+        width: 130px;
+    }
+    #services-description-3 {
+        color: white;
+        text-transform: uppercase;
+        margin-top: -140px;
+        margin-left: 500px;
+        font-size: 45px;
+        width: 510px;
+    }
+    #services-images-4 {
+        margin-top: 150px;
+        height: 100px;
+        margin-left: 186px;
+    }
+
+    #services-description-4 {
+        color: white;
+        text-transform: uppercase;
+        margin-top: -85px;
+        margin-left: 500px;
+        font-size: 45px;
+    }
+    .services-details {
+        padding-top: 50px;
+    }
+    #service-heading-1 {
+        color: #878787;
+        margin-left: 150px;
+        margin-top: 200px;
+        width: fit-content;
+        font-size: 60px;
+    }
+    #service-heading-description-1 {
+        color: white;
+        margin-left: 125px;
+        margin-top: 50px;
+        font-size: 30px;
+        width: 670px;
+    }
+    #service-heading-description-2 {
+        color: white;
+        margin-left: 120px;
+        margin-top: 50px;
+        font-size: 30px;
+        width: 670px;
+    }
+    
+    #service-heading-2 {
+        color: #878787;
+        margin-left: 200px;
+        margin-top: 200px;
+        width: fit-content;
+        font-size: 60px;
+    }
+    #service-heading-description-3 {
+        color: white;
+        margin-left: 120px;
+        margin-top: 50px;
+        font-size: 30px;
+        width: 670px;
+    }
+    
+    #service-heading-3 {
+        color: #878787;
+        margin-left: 150px;
+        margin-top: 170px;
+        width: 600px;
+        font-size: 60px;
+    }
+    #service-heading-description-4 {
+        color: white;
+        margin-left: 120px;
+        margin-top: 50px;
+        font-size: 30px;
+        width: 670px;
+    }
+    
+    #service-heading-4 {
+        color: #878787;
+        margin-left: 150px;
+        margin-top: 200px;
+        width: 600px;
+        font-size: 60px;
+    }
+#signature-services {
+    padding-top: 30px;
+    width: 660px;
+    margin-left: 200px;
+}
+#details-services {
+    color: #878787;
+    margin-left: 80px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#title-services {
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 80px;
+}
+#detail-icon6 {
+    display: flex;
+    margin-left: 870px;
+    margin-top: -140px;
+    cursor: pointer;
+    opacity: 0.5;
+    height: 110px;
+}
+#icon2-services-page {
+    margin-left: 46px;
+    height: 150px;
+}
+#lets-work-services {
+    margin-left: 126px;
+    font-size: 75px;
+    margin-top: -10px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+}
+#detail-icon4-service-page{
+    display: flex;
+    margin-left: 870px;
+    margin-top: -140px;
+    cursor: pointer;
+    opacity: 0.5;
+    height: 110px;
+}
+.social-profiles-services {
+    height: 500px;
+    width: 1145px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    display: block;
+    padding-top: 5px;
+}
+
+.profile-box-services {
+    height: 210px;
+    width: 560px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border: 0.2px solid rgb(91, 91, 91);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    height: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border: 0.2px solid rgb(91, 91, 91);
+}
+#details {
+    color: #878787;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#title {
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 80px;
+}
+#detail-icon2-service-page {
+    display: flex;
+    margin-left: 870px;
+    margin-top: -140px;
+    cursor: pointer;
+    opacity: 0.5;
+    height: 110px;
+}
+#footer-services{
+display: none;
+}
 }
