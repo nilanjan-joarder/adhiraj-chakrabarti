@@ -9,14 +9,16 @@
 ::-webkit-scrollbar {
     display: none;
 }
-
-body {
-    background-color: #0F0F0F;
-
-}
-
 :root {
     font-family: "Poppins", sans-serif;
+    --white-color: #ffff;
+    --gray-color:#878787;
+    --blue-color:#5B78f6;
+    --background-color:#0F0F0F;
+   
+}
+body {
+    background-color:var(--background-color);
 
 }
 
@@ -54,26 +56,26 @@ body {
 }
 
 .home {
-    color: white;
+    color: var(--white-color);
 }
 
 .about {
-    color: white;
+    color: var(--white-color);
 }
 
 .works {
-    color: white;
+    color:var(--white-color);
 }
 
 .contact {
-    color: white;
+    color:var(--white-color);
 }
 
 .lets-talk {
     width: 100px;
     height: 40px;
     border-radius: 20px;
-    color: white;
+    color:var(--white-color);
     background-color: rgb(56, 56, 56);
     border: none;
     cursor: pointer;
@@ -95,6 +97,7 @@ body {
     width: 550px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border-radius: 20px;
+    
 }
 
 #profile-picture {
@@ -107,7 +110,7 @@ body {
 #profession {
     margin-top: -210px;
     margin-left: 280px;
-    color: #878787;
+    color:var(--gray-color);
     font-weight: 500;
 }
 
@@ -121,7 +124,7 @@ body {
 #job-title {
     margin-top: 10px;
     margin-left: 280px;
-    color: #878787;
+    color:var(--gray-color);
     font-weight: 300;
 }
 
@@ -146,7 +149,7 @@ body {
 
 marquee {
     display: flex;
-    color: white;
+    color:var(--white-color);
     font-size: 15px;
     margin-top: 10px;
 }
@@ -174,15 +177,15 @@ marquee {
     width: 300px;
 }
 #details {
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 40px;
 }
 #details-services{
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 40px;
 }
 #details-service-page{
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 40px;
 }
 #title {
@@ -235,7 +238,7 @@ marquee {
 #myworks {
     font-size: 20px;
     font-weight: 700;
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 90px;
     margin-top: 26px;
 
@@ -423,12 +426,12 @@ marquee {
 }
 
 #number {
-    color: white;
+    color:var(--white-color);
     font-size: 35px;
 }
 
 #detail {
-    color: #878787;
+    color:var(--gray-color);
     font-size: 13px;
 }
 
@@ -451,7 +454,7 @@ marquee {
     font-size: 30px;
     margin-top: -10px;
     font-weight: 500;
-    color: white;
+    color:var(--white-color);
     letter-spacing: 2px;
 }
 
@@ -462,11 +465,11 @@ footer {
 }
 
 #footer {
-    color: #878787;
+    color:var(--gray-color);
 }
 #footer-services
 {
-    color: #878787;
+    color:var(--gray-color);
 }
 
 
@@ -544,7 +547,7 @@ footer {
 
 #full-name-profile {
     font-size: 30px;
-    color: white;
+    color:var(--white-color);
     margin-left: 50px;
 }
 
@@ -552,13 +555,13 @@ footer {
     width: 600px;
     margin-left: 50px;
     margin-top: 10px;
-    color: #878787;
+    color:var(--gray-color);
 
 }
 
 #box-title-profile {
     font-size: 20px;
-    color: white;
+    color:var(--white-color);
     margin-top: 50px;
     margin-left: 46px;
     font-weight: 600;
@@ -567,7 +570,7 @@ footer {
 #experience-period {
     margin-left: 46px;
     margin-top: 30px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
@@ -581,14 +584,14 @@ footer {
 #experience-company {
     margin-left: 46px;
     margin-top: 5px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
 #education-period {
     margin-left: 46px;
     margin-top: 20px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
@@ -602,7 +605,7 @@ footer {
 #education-domain {
     margin-left: 46px;
     margin-top: 5px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
@@ -624,7 +627,7 @@ footer {
     font-size: 30px;
     margin-top: -10px;
     font-weight: 500;
-    color: white;
+    color:var(--white-color);
     letter-spacing: 2px;
 }
 #detail-icon5{
@@ -661,7 +664,7 @@ footer {
 }
 
 #contact-info-title {
-    color: white;
+    color:var(--white-color);
     font-size: 18px;
     font-weight: 500;
 }
@@ -687,12 +690,12 @@ footer {
 }
 
 h4 {
-    color: white;
+    color:var(--white-color);
     font-weight: 500;
 }
 
 span {
-    color: #878787;
+    color:var(--gray-color);
 }
 
 #call-icon {
@@ -704,7 +707,7 @@ span {
 }
 
 #social-info-title {
-    color: white;
+    color:var(--white-color);
     font-size: 18px;
     font-weight: 500;
     margin-top: 80px;
@@ -749,7 +752,7 @@ span {
     font-size: 40px;
     margin-top: -10px;
     font-weight: 500;
-    color: white;
+    color:var(--white-color);
     letter-spacing: 2px;
     margin-top: -50px;
 }
@@ -776,12 +779,12 @@ span {
 
 input {
     padding-left: 20px;
-    color: #878787;
+    color:var(--gray-color);
 }
 
 textarea {
     padding-left: 20px;
-    color: #878787;
+    color:var(--gray-color);
     font-family: poppins;
     padding-top: 10px;
 }
@@ -794,7 +797,7 @@ textarea {
     border-radius: 10px;
     background-color: #1d1d1d;
     border: 0.1px solid gray;
-    color: white;
+    color:var(--white-color);
     font-family: poppins;
     font-size: 15px;
     cursor: pointer;
@@ -851,7 +854,7 @@ textarea {
 
 #email-credentials {
     font-size: 12px;
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 120px;
     width: fit-content;
 }
@@ -882,7 +885,7 @@ textarea {
     margin-top: 20px;
     border-radius: 10px;
     background-color: #252525;
-    color: white;
+    color:var(--white-color);
     border: none;
     font-family: poppins;
 }
@@ -912,72 +915,72 @@ textarea {
 }
 
 #about-me-credentials {
-    color: white;
+    color:var(--white-color);
     font-size: 20px
 }
 
 #about-me-description-credentials {
-    color: white;
+    color:var(--white-color);
     font-size: 15px;
     font-weight: 200;
     margin-top: 20px;
 }
 
 #experience-credentials {
-    color: white;
+    color:var(--white-color);
     font-size: 20px;
     margin-top: 100px;
 }
 
 #experience-period-credentials {
     margin-top: 30px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
 #experience-domain-credentials {
     margin-top: 5px;
-    color: #5B78f6;
+    color:var(--blue-color);
     font-size: 15px;
 }
 
 #experience-company-credentials {
     margin-top: 5px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
 #education-credentials {
-    color: white;
+    color:var(--white-color);
     font-size: 20px;
     margin-top: 100px;
 }
 
 #education-period-credentials {
     margin-top: 20px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
 #education-company-credentials {
     margin-top: 5px;
-    color: #5B78f6;
+    color:var(--blue-color);
     font-size: 15px;
 }
 
 #education-domain-credentials {
     margin-top: 5px;
-    color: #878787;
+    color:var(--gray-color);
     font-size: 15px;
 }
 
 #credential-description {
-    color: white;
+    color:var(--white-color);
     padding-bottom: 30px;
 }
 
 #skill-credentials {
-    color: white;
+    color:var(--white-color);
     font-size: 20px;
     margin-top: 100px;
 }
@@ -991,17 +994,17 @@ textarea {
 }
 
 .skill {
-    color: white;
+    color:var(--white-color);
 }
 
 #skill-description {
-    color: #878787;
+    color:var(--gray-color);
     font-size: 13px;
 }
 
 #coming-soon {
     font-size: 50px;
-    color: white;
+    color:var(--white-color);
     margin-top: 10%;
     margin-left: 36%;
 }
@@ -1119,7 +1122,7 @@ textarea {
 }
 
 #services-description-1 {
-    color: white;
+    color:var(--white-color);
     text-transform: uppercase;
     margin-top: -45px;
     margin-left: 160px;
@@ -1127,7 +1130,7 @@ textarea {
 }
 
 #services-description-2 {
-    color: white;
+    color:var(--white-color);
     text-transform: uppercase;
     margin-top: -45px;
     margin-left: 160px;
@@ -1135,7 +1138,7 @@ textarea {
 }
 
 #services-description-3 {
-    color: white;
+    color:var(--white-color);
     text-transform: uppercase;
     margin-top: -55px;
     margin-left: 160px;
@@ -1144,7 +1147,7 @@ textarea {
 }
 
 #services-description-4 {
-    color: white;
+    color:var(--white-color);
     text-transform: uppercase;
     margin-top: -40px;
     margin-left: 160px;
@@ -1176,56 +1179,56 @@ textarea {
 }
 
 #service-heading-1 {
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-1 {
-    color: white;
+    color:var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
     width: 270px;
 }
 #service-heading-2 {
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-2 {
-    color: white;
+    color:var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
     width: 270px;
 }
 #service-heading-3 {
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-3 {
-    color: white;
+    color:var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
     width: 270px;
 }
 #service-heading-4 {
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-4 {
-    color: white;
+    color:var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
@@ -1275,7 +1278,7 @@ opacity: 1;
     font-size: 45px;
     margin-top: -10px;
     font-weight: 500;
-    color: white;
+    color:var(--white-color);
     letter-spacing: 2px;
 }
 
@@ -1399,7 +1402,7 @@ opacity: 1;
     }
 
     #home {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
         margin-top: 400px;
         writing-mode: horizontal-tb;
@@ -1409,7 +1412,7 @@ opacity: 1;
     }
 
     #about {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
         margin-top: 500px;
         writing-mode: horizontal-tb;
@@ -1417,7 +1420,7 @@ opacity: 1;
     }
 
     #contact {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
         margin-top:600px;
         writing-mode: horizontal-tb;
@@ -1425,7 +1428,7 @@ opacity: 1;
     }
 
     #work {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
         margin-top: 700px;
         writing-mode: horizontal-tb;
@@ -1435,7 +1438,7 @@ opacity: 1;
         width: 190px;
         height: 60px;
         border-radius: 27px;
-        color: white;
+        color:var(--white-color);
         background-color: rgb(56, 56, 56);
         border: none;
         cursor: pointer;
@@ -1460,7 +1463,7 @@ opacity: 1;
         font-size: 20px;
         margin-top: 35px;
         margin-left: 50px;
-        color: #878787;
+        color:var(--gray-color);
         font-weight: 500;
     }
 
@@ -1475,7 +1478,7 @@ opacity: 1;
         font-size: 20px;
         margin-top: 10px;
         margin-left: 50px;
-        color: #878787;
+        color:var(--gray-color);
         font-weight: 300;
     }
 
@@ -1494,7 +1497,7 @@ opacity: 1;
 
     marquee {
         display: flex;
-        color: white;
+        color:var(--white-color);
         font-size: 20px;
         margin-top: 10px;
     }
@@ -1514,7 +1517,7 @@ opacity: 1;
     }
 
     #details {
-        color: #878787;
+        color:var(--gray-color);
         margin-left: 50px;
         margin-top: 50px;
         font-size: 20px;
@@ -1546,7 +1549,7 @@ opacity: 1;
     #myworks {
         font-size: 40px;
         font-weight: 700;
-        color: #878787;
+        color:var(--gray-color);
         margin-left: 160px;
         margin-top: 40px;
     }
@@ -1657,12 +1660,12 @@ opacity: 1;
     }
 
     #number {
-        color: white;
+        color:var(--white-color);
         font-size: 50px;
     }
 
     #detail {
-        color: #878787;
+        color:var(--gray-color);
         font-size: 20px;
     }
 
@@ -1758,7 +1761,7 @@ opacity: 1;
 
     #full-name-profile {
         font-size: 50px;
-        color: white;
+        color:var(--white-color);
         margin-left: 50px;
         margin-top: 20px;
     }
@@ -1767,13 +1770,13 @@ opacity: 1;
         width: 790px;
         margin-left: 50px;
         margin-top: 10px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 25px;
     }
 
     #box-title-profile {
         font-size: 35px;
-        color: white;
+        color:var(--white-color);
         margin-top: 50px;
         margin-left: 46px;
         font-weight: 400;
@@ -1783,7 +1786,7 @@ opacity: 1;
     #experience-period {
         margin-left: 46px;
         margin-top: 30px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 25px;
     }
 
@@ -1797,14 +1800,14 @@ opacity: 1;
     #experience-company {
         margin-left: 46px;
         margin-top: 5px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 25px;
     }
 
     #education-period {
         margin-left: 46px;
         margin-top: 30px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 25px;
     }
 
@@ -1818,7 +1821,7 @@ opacity: 1;
     #education-company {
         margin-left: 46px;
         margin-top: 5px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 25px;
     }
 
@@ -1827,7 +1830,7 @@ opacity: 1;
         font-size: 50px;
         margin-top: -10px;
         font-weight: 500;
-        color: white;
+        color:var(--white-color);
         letter-spacing: 2px;
     }
 
@@ -1845,7 +1848,7 @@ opacity: 1;
 
     #coming-soon {
         font-size: 50px;
-        color: white;
+        color:var(--white-color);
         margin-top: 120%;
         margin-left: 46%;
     }
@@ -1859,7 +1862,7 @@ opacity: 1;
 
     #footer {
         /* display: none; */
-        color: #878787;
+        color:var(--gray-color);
     }
 
 
@@ -1905,7 +1908,7 @@ opacity: 1;
     }
     #email-credentials {
         font-size: 20px;
-        color: #878787;
+        color:var(--gray-color);
         margin-left: 200px;
         width: fit-content;
         margin-top: 10px;
@@ -1934,76 +1937,76 @@ opacity: 1;
         margin-top: 50px;
         border-radius: 10px;
         background-color: #252525;
-        color: white;
+        color:var(--white-color);
         border: none;
         font-family: poppins;
         font-size: 30px;
     }
     #about-me-description-credentials {
-        color: white;
+        color:var(--white-color);
         font-size: 20px;
         font-weight: 200;
         margin-top: 20px;
     }
     #about-me-credentials {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
     }
     #experience-credentials {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
         margin-top: 100px;
     }
     #experience-domain-credentials {
         margin-top: 5px;
-        color: #5B78f6;
+        color:var(--blue-color);
         font-size: 20px;
     }
     #experience-period-credentials {
         margin-top: 30px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 20px;
     }
     #experience-company-credentials {
         margin-top: 5px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 20px;
     }
     #education-credentials {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
         margin-top: 100px;
     }
     #education-period-credentials {
         margin-top: 40px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 20px;
     }
     #education-company-credentials {
         margin-top: 5px;
-        color: #5B78f6;
+        color:var(--blue-color);
         font-size: 20px;
     }
     #education-domain-credentials {
         margin-top: 5px;
-        color: #878787;
+        color:var(--gray-color);
         font-size: 20px;
     }
     #skill-credentials {
-        color: white;
+        color:var(--white-color);
         font-size: 40px;
         margin-top: 100px;
     }#credential-description {
-        color: white;
+        color:var(--white-color);
         padding-bottom: 30px;
         font-size: 20px;
     }
     .skill {
-        color: white;
+        color:var(--white-color);
         font-size: 20px;
     }
     #skill-description {
-        color: #878787;
+        color:var(--gray-color);
         font-size: 15px;
         margin-top: 5px;
     }
@@ -2099,7 +2102,7 @@ opacity: 1;
         margin-left: 190px;
     }
     #services-description-1 {
-        color: white;
+        color:var(--white-color);
         text-transform: uppercase;
         margin-top: -115px;
         margin-left: 500px;
@@ -2111,7 +2114,7 @@ opacity: 1;
         margin-left: 220px;
     }
     #services-description-2 {
-        color: white;
+        color:var(--white-color);
         text-transform: uppercase;
         margin-top: -125px;
         margin-left: 500px;
@@ -2124,7 +2127,7 @@ opacity: 1;
         width: 130px;
     }
     #services-description-3 {
-        color: white;
+        color:var(--white-color);
         text-transform: uppercase;
         margin-top: -140px;
         margin-left: 500px;
@@ -2138,7 +2141,7 @@ opacity: 1;
     }
 
     #services-description-4 {
-        color: white;
+        color:var(--white-color);
         text-transform: uppercase;
         margin-top: -85px;
         margin-left: 500px;
@@ -2148,21 +2151,21 @@ opacity: 1;
         padding-top: 50px;
     }
     #service-heading-1 {
-        color: #878787;
+        color:var(--gray-color);
         margin-left: 150px;
         margin-top: 200px;
         width: fit-content;
         font-size: 60px;
     }
     #service-heading-description-1 {
-        color: white;
+        color:var(--white-color);
         margin-left: 125px;
         margin-top: 50px;
         font-size: 30px;
         width: 670px;
     }
     #service-heading-description-2 {
-        color: white;
+        color:var(--white-color);
         margin-left: 120px;
         margin-top: 50px;
         font-size: 30px;
@@ -2170,14 +2173,14 @@ opacity: 1;
     }
     
     #service-heading-2 {
-        color: #878787;
+        color:var(--gray-color);
         margin-left: 200px;
         margin-top: 200px;
         width: fit-content;
         font-size: 60px;
     }
     #service-heading-description-3 {
-        color: white;
+        color:var(--white-color);
         margin-left: 120px;
         margin-top: 50px;
         font-size: 30px;
@@ -2185,14 +2188,14 @@ opacity: 1;
     }
     
     #service-heading-3 {
-        color: #878787;
+        color:var(--gray-color);
         margin-left: 150px;
         margin-top: 170px;
         width: 600px;
         font-size: 60px;
     }
     #service-heading-description-4 {
-        color: white;
+        color:var(--white-color);
         margin-left: 120px;
         margin-top: 50px;
         font-size: 30px;
@@ -2200,7 +2203,7 @@ opacity: 1;
     }
     
     #service-heading-4 {
-        color: #878787;
+        color:var(--gray-color);
         margin-left: 150px;
         margin-top: 200px;
         width: 600px;
@@ -2212,7 +2215,7 @@ opacity: 1;
     margin-left: 200px;
 }
 #details-services {
-    color: #878787;
+    color:var(--gray-color);
     margin-left: 80px;
     font-size: 30px;
     margin-top: 20px;
@@ -2241,7 +2244,7 @@ opacity: 1;
     font-size: 75px;
     margin-top: -10px;
     font-weight: 500;
-    color: white;
+    color:var(--white-color);
     letter-spacing: 2px;
 }
 #detail-icon4-service-page{
@@ -2275,7 +2278,7 @@ display: block;
     width: 450px;
 }
 #contact-info-title {
-    color: white;
+    color:var(--white-color);
     font-size: 40px;
     font-weight: 500;
 }
@@ -2298,12 +2301,12 @@ span {
     color: rgb(135, 135, 135);
 }
 h4 {
-    color: white;
+    color:var(--white-color);
     font-weight: 500;
     font-size: 20px;
 }
 #social-info-title {
-    color: white;
+    color:var(--white-color);
     font-size: 40px;
     font-weight: 500;
     margin-top: 100px;
@@ -2321,7 +2324,7 @@ h4 {
     font-size: 40px;
     margin-top: -10px;
     font-weight: 500;
-    color: white;
+    color:var(--white-color);
     letter-spacing: 2px;
     margin-top: -20px;
 }
@@ -2351,7 +2354,7 @@ h4 {
     border-radius: 10px;
     background-color: rgb(29, 29, 29);
     border: 0.1px solid gray;
-    color: white;
+    color:var(--white-color);
     font-family: poppins;
     font-size: 20px;
     cursor: pointer;
