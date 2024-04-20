@@ -9,16 +9,18 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
 :root {
     font-family: "Poppins", sans-serif;
     --white-color: #ffff;
-    --gray-color:#878787;
-    --blue-color:#5B78f6;
-    --background-color:#0F0F0F;
-   
+    --gray-color: #878787;
+    --blue-color: #5B78f6;
+    --background-color: #0F0F0F;
+
 }
+
 body {
-    background-color:var(--background-color);
+    background-color: var(--background-color);
 
 }
 
@@ -64,18 +66,18 @@ body {
 }
 
 .works {
-    color:var(--white-color);
+    color: var(--white-color);
 }
 
 .contact {
-    color:var(--white-color);
+    color: var(--white-color);
 }
 
 .lets-talk {
     width: 100px;
     height: 40px;
     border-radius: 20px;
-    color:var(--white-color);
+    color: var(--white-color);
     background-color: rgb(56, 56, 56);
     border: none;
     cursor: pointer;
@@ -97,7 +99,7 @@ body {
     width: 550px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border-radius: 20px;
-    
+
 }
 
 #profile-picture {
@@ -110,7 +112,7 @@ body {
 #profession {
     margin-top: -210px;
     margin-left: 280px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-weight: 500;
 }
 
@@ -124,7 +126,7 @@ body {
 #job-title {
     margin-top: 10px;
     margin-left: 280px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-weight: 300;
 }
 
@@ -149,7 +151,7 @@ body {
 
 marquee {
     display: flex;
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 15px;
     margin-top: 10px;
 }
@@ -172,37 +174,45 @@ marquee {
     padding-top: 30px;
     width: 300px;
 }
+
 #signature-services {
     padding-top: 30px;
     width: 300px;
 }
+
 #details {
-    color:var(--gray-color);
+    color: var(--gray-color);
     margin-left: 40px;
 }
-#details-services{
-    color:var(--gray-color);
+
+#details-services {
+    color: var(--gray-color);
     margin-left: 40px;
 }
-#details-service-page{
-    color:var(--gray-color);
+
+#details-service-page {
+    color: var(--gray-color);
     margin-left: 40px;
 }
+
 #title {
     font-size: 30px;
     color: #ffffff;
     margin-left: 40px;
 }
+
 #title-services {
     font-size: 30px;
     color: #ffffff;
     margin-left: 40px;
 }
+
 #title-service-page {
     font-size: 30px;
     color: #ffffff;
     margin-left: 40px;
 }
+
 #detail-icon2 {
     display: flex;
     margin-left: 230px;
@@ -210,6 +220,7 @@ marquee {
     cursor: pointer;
     opacity: 0.5;
 }
+
 #detail-icon6 {
     display: flex;
     margin-left: 230px;
@@ -217,6 +228,7 @@ marquee {
     cursor: pointer;
     opacity: 0.5;
 }
+
 #detail-icon6:hover {
     opacity: 1;
 }
@@ -228,7 +240,6 @@ marquee {
 /* project-section */
 
 .projects {
-    margin-top: 60px;
     height: 250px;
     width: 300px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
@@ -238,7 +249,7 @@ marquee {
 #myworks {
     font-size: 20px;
     font-weight: 700;
-    color:var(--gray-color);
+    color: var(--gray-color);
     margin-left: 90px;
     margin-top: 26px;
 
@@ -269,6 +280,7 @@ marquee {
     width: 300px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border-radius: 20px;
+    margin-top: 60px;
 }
 
 #blog-image {
@@ -277,7 +289,66 @@ marquee {
     margin-top: 25px;
 }
 
+.nav-bar-blogs {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 120px;
+    writing-mode: vertical-lr;
+    margin-left: 30px;
+    position: fixed;
+}
 
+#nav-blog,
+#nav-photograph,
+#nav-thought {
+    cursor: pointer;
+}
+
+#blog-blogs-main {
+    width: 1250px;
+    height: 800px;
+    margin-left: 150px;
+    margin-top: 80px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 30px;
+    visibility: visible;
+
+}
+
+#blog-photographs-main {
+    display: none;
+    width: 1250px;
+    height: 800px;
+    margin-left: 150px;
+    margin-top: 80px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 30px;
+    visibility: hidden;
+
+}
+
+#blog-thoughts-main {
+    display: none;
+    width: 1250px;
+    height: 800px;
+    margin-left: 150px;
+    margin-top: 80px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 30px;
+    visibility: hidden;
+
+}
+
+.blogs-headings {
+    color: var(--white-color);
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 46px;
+}
 
 /* services-section */
 .services {
@@ -294,6 +365,7 @@ marquee {
     align-items: center;
     padding-bottom: 50px;
     margin-top: 50px;
+
 
 
 }
@@ -316,6 +388,7 @@ marquee {
     height: 40px;
     width: 50px;
 }
+
 #detail-icon2-service-page {
     display: flex;
     margin-left: 230px;
@@ -327,6 +400,7 @@ marquee {
 #detail-icon2-service-page:hover {
     opacity: 1;
 }
+
 #detail-icon3 {
     display: flex;
     margin-left: 430px;
@@ -426,12 +500,12 @@ marquee {
 }
 
 #number {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 35px;
 }
 
 #detail {
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 13px;
 }
 
@@ -446,15 +520,17 @@ marquee {
 #icon2 {
     margin-left: 46px;
 }
-#icon2-services-page{
+
+#icon2-services-page {
     margin-left: 46px;
 }
+
 #lets-work {
     margin-left: 46px;
     font-size: 30px;
     margin-top: -10px;
     font-weight: 500;
-    color:var(--white-color);
+    color: var(--white-color);
     letter-spacing: 2px;
 }
 
@@ -465,11 +541,11 @@ footer {
 }
 
 #footer {
-    color:var(--gray-color);
+    color: var(--gray-color);
 }
-#footer-services
-{
-    color:var(--gray-color);
+
+#footer-services {
+    color: var(--gray-color);
 }
 
 
@@ -547,7 +623,7 @@ footer {
 
 #full-name-profile {
     font-size: 30px;
-    color:var(--white-color);
+    color: var(--white-color);
     margin-left: 50px;
 }
 
@@ -555,13 +631,13 @@ footer {
     width: 600px;
     margin-left: 50px;
     margin-top: 10px;
-    color:var(--gray-color);
+    color: var(--gray-color);
 
 }
 
 #box-title-profile {
     font-size: 20px;
-    color:var(--white-color);
+    color: var(--white-color);
     margin-top: 50px;
     margin-left: 46px;
     font-weight: 600;
@@ -570,7 +646,7 @@ footer {
 #experience-period {
     margin-left: 46px;
     margin-top: 30px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
@@ -584,14 +660,14 @@ footer {
 #experience-company {
     margin-left: 46px;
     margin-top: 5px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
 #education-period {
     margin-left: 46px;
     margin-top: 20px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
@@ -605,7 +681,7 @@ footer {
 #education-domain {
     margin-left: 46px;
     margin-top: 5px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
@@ -627,18 +703,20 @@ footer {
     font-size: 30px;
     margin-top: -10px;
     font-weight: 500;
-    color:var(--white-color);
+    color: var(--white-color);
     letter-spacing: 2px;
 }
-#detail-icon5{
+
+#detail-icon5 {
     display: flex;
     margin-left: 400px;
     margin-top: -70px;
     opacity: 0.5;
-    }
-    #detail-icon5:hover {
-        opacity: 1;
-    }
+}
+
+#detail-icon5:hover {
+    opacity: 1;
+}
 
 /* ------------------------------------------------------------------------------------------------------------------ */
 
@@ -664,7 +742,7 @@ footer {
 }
 
 #contact-info-title {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 18px;
     font-weight: 500;
 }
@@ -690,12 +768,12 @@ footer {
 }
 
 h4 {
-    color:var(--white-color);
+    color: var(--white-color);
     font-weight: 500;
 }
 
 span {
-    color:var(--gray-color);
+    color: var(--gray-color);
 }
 
 #call-icon {
@@ -707,7 +785,7 @@ span {
 }
 
 #social-info-title {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 18px;
     font-weight: 500;
     margin-top: 80px;
@@ -744,15 +822,17 @@ span {
 #icon4 {
     margin-left: 600px;
 }
+
 #icon4-contact-page {
     margin-left: 600px;
 }
+
 #lets-work-contact {
     margin-left: 46px;
     font-size: 40px;
     margin-top: -10px;
     font-weight: 500;
-    color:var(--white-color);
+    color: var(--white-color);
     letter-spacing: 2px;
     margin-top: -50px;
 }
@@ -779,12 +859,12 @@ span {
 
 input {
     padding-left: 20px;
-    color:var(--gray-color);
+    color: var(--gray-color);
 }
 
 textarea {
     padding-left: 20px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-family: poppins;
     padding-top: 10px;
 }
@@ -797,7 +877,7 @@ textarea {
     border-radius: 10px;
     background-color: #1d1d1d;
     border: 0.1px solid gray;
-    color:var(--white-color);
+    color: var(--white-color);
     font-family: poppins;
     font-size: 15px;
     cursor: pointer;
@@ -854,7 +934,7 @@ textarea {
 
 #email-credentials {
     font-size: 12px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     margin-left: 120px;
     width: fit-content;
 }
@@ -885,7 +965,7 @@ textarea {
     margin-top: 20px;
     border-radius: 10px;
     background-color: #252525;
-    color:var(--white-color);
+    color: var(--white-color);
     border: none;
     font-family: poppins;
 }
@@ -918,76 +998,77 @@ textarea {
 }
 
 #about-me-credentials {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 20px
 }
 
 #about-me-description-credentials {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 15px;
     font-weight: 200;
     margin-top: 20px;
 }
 
 #experience-credentials {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 20px;
     margin-top: 100px;
 }
 
 #experience-period-credentials {
     margin-top: 30px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
 #experience-domain-credentials {
     margin-top: 5px;
-    color:var(--blue-color);
+    color: var(--blue-color);
     font-size: 15px;
 }
 
 #experience-company-credentials {
     margin-top: 5px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
 #education-credentials {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 20px;
     margin-top: 100px;
 }
 
 #education-period-credentials {
     margin-top: 20px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
 #education-company-credentials {
     margin-top: 5px;
-    color:var(--blue-color);
+    color: var(--blue-color);
     font-size: 15px;
 }
 
 #education-domain-credentials {
     margin-top: 5px;
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 15px;
 }
 
-li{
-    color:var(--white-color);
+li {
+    color: var(--white-color);
     padding-bottom: 30px;
 }
+
 #credential-description {
-    color:var(--white-color);
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
 #skill-credentials {
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 20px;
     margin-top: 100px;
 }
@@ -1001,17 +1082,17 @@ li{
 }
 
 .skill {
-    color:var(--white-color);
+    color: var(--white-color);
 }
 
 #skill-description {
-    color:var(--gray-color);
+    color: var(--gray-color);
     font-size: 13px;
 }
 
 #coming-soon {
     font-size: 50px;
-    color:var(--white-color);
+    color: var(--white-color);
     margin-top: 10%;
     margin-left: 36%;
 }
@@ -1129,7 +1210,7 @@ li{
 }
 
 #services-description-1 {
-    color:var(--white-color);
+    color: var(--white-color);
     text-transform: uppercase;
     margin-top: -45px;
     margin-left: 160px;
@@ -1137,7 +1218,7 @@ li{
 }
 
 #services-description-2 {
-    color:var(--white-color);
+    color: var(--white-color);
     text-transform: uppercase;
     margin-top: -45px;
     margin-left: 160px;
@@ -1145,7 +1226,7 @@ li{
 }
 
 #services-description-3 {
-    color:var(--white-color);
+    color: var(--white-color);
     text-transform: uppercase;
     margin-top: -55px;
     margin-left: 160px;
@@ -1154,7 +1235,7 @@ li{
 }
 
 #services-description-4 {
-    color:var(--white-color);
+    color: var(--white-color);
     text-transform: uppercase;
     margin-top: -40px;
     margin-left: 160px;
@@ -1186,56 +1267,59 @@ li{
 }
 
 #service-heading-1 {
-    color:var(--gray-color);
+    color: var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-1 {
-    color:var(--white-color);
+    color: var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
     width: 270px;
 }
+
 #service-heading-2 {
-    color:var(--gray-color);
+    color: var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-2 {
-    color:var(--white-color);
+    color: var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
     width: 270px;
 }
+
 #service-heading-3 {
-    color:var(--gray-color);
+    color: var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-3 {
-    color:var(--white-color);
+    color: var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
     width: 270px;
 }
+
 #service-heading-4 {
-    color:var(--gray-color);
+    color: var(--gray-color);
     margin-left: 36px;
     margin-top: 20px;
     width: 200px;
 }
 
 #service-heading-description-4 {
-    color:var(--white-color);
+    color: var(--white-color);
     margin-left: 36px;
     margin-top: 10px;
     font-size: 13px;
@@ -1266,26 +1350,28 @@ li{
     margin-top: -100px;
     opacity: 0.5;
 }
+
 #detail-icon4:hover {
     opacity: 1;
 }
-#detail-icon4-service-page
-{
+
+#detail-icon4-service-page {
     display: flex;
     margin-left: 450px;
     margin-top: -100px;
     opacity: 0.5;
 }
-#detail-icon4-service-page:hover
-{
-opacity: 1;
+
+#detail-icon4-service-page:hover {
+    opacity: 1;
 }
+
 #lets-work-services {
     margin-left: 46px;
     font-size: 45px;
     margin-top: -10px;
     font-weight: 500;
-    color:var(--white-color);
+    color: var(--white-color);
     letter-spacing: 2px;
 }
 
@@ -1318,6 +1404,7 @@ opacity: 1;
     column-gap: 20px;
     height: 100px;
 }
+
 .social-profiles-services-service-page {
     height: 250px;
     width: 300px;
@@ -1347,6 +1434,7 @@ opacity: 1;
     column-gap: 20px;
     height: 100px;
 }
+
 .social-service-page {
     display: flex;
     justify-content: center;
@@ -1357,9 +1445,11 @@ opacity: 1;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border: 0.2px solid rgb(91, 91, 91);
 }
-.extra{
+
+.extra {
     display: none;
 }
+
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -1375,6 +1465,7 @@ opacity: 1;
         margin-left: 50px;
         margin-top: 50px;
     }
+
     #hambarger1 {
         display: flex;
         height: 100px;
@@ -1401,6 +1492,7 @@ opacity: 1;
         margin-top: 84px;
         position: fixed;
     }
+
     .logo {
         height: 100px;
         width: 170px;
@@ -1409,7 +1501,7 @@ opacity: 1;
     }
 
     #home {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
         margin-top: 400px;
         writing-mode: horizontal-tb;
@@ -1419,7 +1511,7 @@ opacity: 1;
     }
 
     #about {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
         margin-top: 500px;
         writing-mode: horizontal-tb;
@@ -1427,25 +1519,26 @@ opacity: 1;
     }
 
     #contact {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
-        margin-top:600px;
+        margin-top: 600px;
         writing-mode: horizontal-tb;
         margin-left: -160px;
     }
 
     #work {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
         margin-top: 700px;
         writing-mode: horizontal-tb;
         margin-left: -150px;
     }
+
     .lets-talk {
         width: 190px;
         height: 60px;
         border-radius: 27px;
-        color:var(--white-color);
+        color: var(--white-color);
         background-color: rgb(56, 56, 56);
         border: none;
         cursor: pointer;
@@ -1453,6 +1546,7 @@ opacity: 1;
         margin-left: -180px;
         font-size: 25px;
     }
+
     .profile {
         margin-left: -90px;
         margin-top: 0px;
@@ -1470,7 +1564,7 @@ opacity: 1;
         font-size: 20px;
         margin-top: 35px;
         margin-left: 50px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-weight: 500;
     }
 
@@ -1485,7 +1579,7 @@ opacity: 1;
         font-size: 20px;
         margin-top: 10px;
         margin-left: 50px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-weight: 300;
     }
 
@@ -1504,7 +1598,7 @@ opacity: 1;
 
     marquee {
         display: flex;
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 20px;
         margin-top: 10px;
     }
@@ -1524,7 +1618,7 @@ opacity: 1;
     }
 
     #details {
-        color:var(--gray-color);
+        color: var(--gray-color);
         margin-left: 50px;
         margin-top: 50px;
         font-size: 20px;
@@ -1545,7 +1639,7 @@ opacity: 1;
     }
 
     .projects {
-        margin-top: 20px;
+
         height: 450px;
         width: 550px;
         background-image: linear-gradient(to bottom right, #202020, #131313);
@@ -1556,7 +1650,7 @@ opacity: 1;
     #myworks {
         font-size: 40px;
         font-weight: 700;
-        color:var(--gray-color);
+        color: var(--gray-color);
         margin-left: 160px;
         margin-top: 40px;
     }
@@ -1575,6 +1669,7 @@ opacity: 1;
         background-image: linear-gradient(to bottom right, #202020, #131313);
         border-radius: 20px;
         margin-left: -90px;
+        margin-top: 20px;
     }
 
     #blog-image {
@@ -1667,12 +1762,12 @@ opacity: 1;
     }
 
     #number {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 50px;
     }
 
     #detail {
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 20px;
     }
 
@@ -1768,7 +1863,7 @@ opacity: 1;
 
     #full-name-profile {
         font-size: 50px;
-        color:var(--white-color);
+        color: var(--white-color);
         margin-left: 50px;
         margin-top: 20px;
     }
@@ -1777,13 +1872,13 @@ opacity: 1;
         width: 790px;
         margin-left: 50px;
         margin-top: 10px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 25px;
     }
 
     #box-title-profile {
         font-size: 35px;
-        color:var(--white-color);
+        color: var(--white-color);
         margin-top: 50px;
         margin-left: 46px;
         font-weight: 400;
@@ -1793,7 +1888,7 @@ opacity: 1;
     #experience-period {
         margin-left: 46px;
         margin-top: 30px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 25px;
     }
 
@@ -1807,14 +1902,14 @@ opacity: 1;
     #experience-company {
         margin-left: 46px;
         margin-top: 5px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 25px;
     }
 
     #education-period {
         margin-left: 46px;
         margin-top: 30px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 25px;
     }
 
@@ -1828,7 +1923,7 @@ opacity: 1;
     #education-company {
         margin-left: 46px;
         margin-top: 5px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 25px;
     }
 
@@ -1837,7 +1932,7 @@ opacity: 1;
         font-size: 50px;
         margin-top: -10px;
         font-weight: 500;
-        color:var(--white-color);
+        color: var(--white-color);
         letter-spacing: 2px;
     }
 
@@ -1850,12 +1945,45 @@ opacity: 1;
         height: 100px;
     }
 
+    /* -------------------------------------------------------------------------------------------- */
+    /* blogs page */
+              
+    .nav-bar-blogs
+{
+    font-size: 60px;
+    writing-mode: horizontal-tb;
+    margin-left: 180px;
+    position: absolute;
+}
+
+#blog-blogs-main
+{
+    margin-top: 310px;
+    margin-left: 60px;
+    width: 1160px;
+    height: 2000px;
+}
+#blog-photographs-main
+{
+    margin-top: 310px;
+    margin-left: 60px;
+    width: 1160px;
+    height: 2000px;
+}
+#blog-thoughts-main
+{
+    margin-top: 310px;
+    margin-left: 60px;
+    width: 1160px;
+    height: 2000px;
+}
+
 
     /* ----------------------------------------------------------------- */
 
     #coming-soon {
         font-size: 50px;
-        color:var(--white-color);
+        color: var(--white-color);
         margin-top: 120%;
         margin-left: 46%;
     }
@@ -1869,7 +1997,7 @@ opacity: 1;
 
     #footer {
         /* display: none; */
-        color:var(--gray-color);
+        color: var(--gray-color);
     }
 
 
@@ -1881,6 +2009,7 @@ opacity: 1;
         display: block;
 
     }
+
     .profile-box-credential {
         height: 920px;
         width: 620px;
@@ -1888,24 +2017,28 @@ opacity: 1;
         border-radius: 20px;
         margin-left: -110px;
     }
+
     .left-credential {
         width: 450px;
         height: fit-content;
         position: relative;
         top: 20px;
     }
+
     .right-credential {
         width: 575px;
         height: fit-content;
         margin-left: -100px;
         margin-top: 50px;
     }
+
     #profile-picture-credentials {
-        height:500px;
+        height: 500px;
         border-radius: 10px;
         margin-top: 30px;
         margin-left: 60px;
     }
+
     #full-name-credentials {
         font-size: 40px;
         color: #ffffff;
@@ -1913,13 +2046,15 @@ opacity: 1;
         width: fit-content;
         margin-top: 20px;
     }
+
     #email-credentials {
         font-size: 20px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         margin-left: 200px;
         width: fit-content;
         margin-top: 10px;
     }
+
     .social-icons-box-credentials {
         height: 100px;
         width: 100px;
@@ -1930,6 +2065,7 @@ opacity: 1;
         display: flex;
         align-items: center;
     }
+
     .social-icons-credentials {
         display: flex;
         width: fit-content;
@@ -1937,6 +2073,7 @@ opacity: 1;
         column-gap: 20px;
         margin-top: 20px;
     }
+
     #contact-me {
         width: 400px;
         height: 60px;
@@ -1944,84 +2081,98 @@ opacity: 1;
         margin-top: 50px;
         border-radius: 10px;
         background-color: #252525;
-        color:var(--white-color);
+        color: var(--white-color);
         border: none;
         font-family: poppins;
         font-size: 30px;
     }
+
     #about-me-description-credentials {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 20px;
         font-weight: 200;
         margin-top: 20px;
     }
+
     #about-me-credentials {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
     }
+
     #experience-credentials {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
         margin-top: 100px;
     }
+
     #experience-domain-credentials {
         margin-top: 5px;
-        color:var(--blue-color);
+        color: var(--blue-color);
         font-size: 20px;
     }
+
     #experience-period-credentials {
         margin-top: 30px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 20px;
     }
+
     #experience-company-credentials {
         margin-top: 5px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 20px;
     }
+
     #education-credentials {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
         margin-top: 100px;
     }
+
     #education-period-credentials {
         margin-top: 40px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 20px;
     }
+
     #education-company-credentials {
         margin-top: 5px;
-        color:var(--blue-color);
+        color: var(--blue-color);
         font-size: 20px;
     }
+
     #education-domain-credentials {
         margin-top: 5px;
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 20px;
     }
+
     #skill-credentials {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 40px;
         margin-top: 100px;
     }
-    li{
-        color:var(--white-color);
+
+    li {
+        color: var(--white-color);
         padding-bottom: 30px;
         font-size: 20px;
 
     }
-    
+
     #credential-description {
-        color:var(--white-color);
+        color: var(--white-color);
         padding-bottom: 30px;
         font-size: 20px;
     }
+
     .skill {
-        color:var(--white-color);
+        color: var(--white-color);
         font-size: 20px;
     }
+
     #skill-description {
-        color:var(--gray-color);
+        color: var(--gray-color);
         font-size: 15px;
         margin-top: 5px;
     }
@@ -2033,10 +2184,11 @@ opacity: 1;
     }
 
     /* ------------------------------------------------------------------------------------------- */
-/* services offered page */
+    /* services offered page */
     .first-row-services {
         display: block;
     }
+
     #my-offerings {
         color: #ffffff;
         font-size: 104px;
@@ -2049,6 +2201,7 @@ opacity: 1;
         margin-top: -1480px;
         width: 940px;
     }
+
     .left-service {
         width: 1145px;
         height: 1303px;
@@ -2057,6 +2210,7 @@ opacity: 1;
         margin-top: 500px;
         margin-left: -111px;
     }
+
     .right-service {
         width: 1145px;
         height: 4300px;
@@ -2065,13 +2219,16 @@ opacity: 1;
         margin-top: -31px;
         margin-left: -110px;
     }
+
     .service-row-1 {
-    display: block;
-    padding-top: 50px;
+        display: block;
+        padding-top: 50px;
     }
+
     .service-row-2 {
-    display: block;
+        display: block;
     }
+
     .services-details {
         height: 900px;
         width: 850px;
@@ -2080,6 +2237,7 @@ opacity: 1;
         margin-left: 140px;
         margin-top: 80px;
     }
+
     .credentials-services {
         margin-top: 50px;
         margin-left: 70px;
@@ -2088,7 +2246,7 @@ opacity: 1;
         background-image: linear-gradient(to bottom right, #202020, #131313);
         border-radius: 50px;
     }
-    
+
     .connect-services {
         height: 500px;
         width: 1145px;
@@ -2097,6 +2255,7 @@ opacity: 1;
         margin-left: 70px;
         margin-top: 50px;
     }
+
     .social-profiles-services {
         height: 500px;
         width: 1145px;
@@ -2106,49 +2265,57 @@ opacity: 1;
         margin-left: 70px;
         display: block;
     }
+
     .extra2 {
         display: block;
         width: 1300px;
         height: 1px;
     }
+
     #services-images-1 {
         margin-top: 190px;
         height: 120px;
         margin-left: 190px;
     }
+
     #services-description-1 {
-        color:var(--white-color);
+        color: var(--white-color);
         text-transform: uppercase;
         margin-top: -115px;
         margin-left: 500px;
         font-size: 45px;
     }
+
     #services-images-2 {
         margin-top: 180px;
         height: 150px;
         margin-left: 220px;
     }
+
     #services-description-2 {
-        color:var(--white-color);
+        color: var(--white-color);
         text-transform: uppercase;
         margin-top: -125px;
         margin-left: 500px;
         font-size: 45px;
     }
+
     #services-images-3 {
         margin-top: 190px;
         height: 120px;
         margin-left: 185px;
         width: 130px;
     }
+
     #services-description-3 {
-        color:var(--white-color);
+        color: var(--white-color);
         text-transform: uppercase;
         margin-top: -140px;
         margin-left: 500px;
         font-size: 45px;
         width: 510px;
     }
+
     #services-images-4 {
         margin-top: 150px;
         height: 100px;
@@ -2156,226 +2323,252 @@ opacity: 1;
     }
 
     #services-description-4 {
-        color:var(--white-color);
+        color: var(--white-color);
         text-transform: uppercase;
         margin-top: -85px;
         margin-left: 500px;
         font-size: 45px;
     }
+
     .services-details {
         padding-top: 50px;
     }
+
     #service-heading-1 {
-        color:var(--gray-color);
+        color: var(--gray-color);
         margin-left: 150px;
         margin-top: 200px;
         width: fit-content;
         font-size: 60px;
     }
+
     #service-heading-description-1 {
-        color:var(--white-color);
+        color: var(--white-color);
         margin-left: 125px;
         margin-top: 50px;
         font-size: 30px;
         width: 670px;
     }
+
     #service-heading-description-2 {
-        color:var(--white-color);
+        color: var(--white-color);
         margin-left: 120px;
         margin-top: 50px;
         font-size: 30px;
         width: 670px;
     }
-    
+
     #service-heading-2 {
-        color:var(--gray-color);
+        color: var(--gray-color);
         margin-left: 200px;
         margin-top: 200px;
         width: fit-content;
         font-size: 60px;
     }
+
     #service-heading-description-3 {
-        color:var(--white-color);
+        color: var(--white-color);
         margin-left: 120px;
         margin-top: 50px;
         font-size: 30px;
         width: 670px;
     }
-    
+
     #service-heading-3 {
-        color:var(--gray-color);
+        color: var(--gray-color);
         margin-left: 150px;
         margin-top: 170px;
         width: 600px;
         font-size: 60px;
     }
+
     #service-heading-description-4 {
-        color:var(--white-color);
+        color: var(--white-color);
         margin-left: 120px;
         margin-top: 50px;
         font-size: 30px;
         width: 670px;
     }
-    
+
     #service-heading-4 {
-        color:var(--gray-color);
+        color: var(--gray-color);
         margin-left: 150px;
         margin-top: 200px;
         width: 600px;
         font-size: 60px;
     }
-#signature-services {
-    padding-top: 30px;
-    width: 660px;
-    margin-left: 200px;
-}
-#details-services {
-    color:var(--gray-color);
-    margin-left: 80px;
-    font-size: 30px;
-    margin-top: 20px;
-}
 
-#title-services {
-    font-size: 60px;
-    color: #ffffff;
-    margin-left: 80px;
-}
+    #signature-services {
+        padding-top: 30px;
+        width: 660px;
+        margin-left: 200px;
+    }
 
-#detail-icon6 {
-    display: flex;
-    margin-left: 870px;
-    margin-top: -140px;
-    cursor: pointer;
-    opacity: 0.5;
-    height: 110px;
-}
-#icon2-services-page {
-    margin-left: 46px;
-    height: 150px;
-}
-#lets-work-services {
-    margin-left: 126px;
-    font-size: 75px;
-    margin-top: -10px;
-    font-weight: 500;
-    color:var(--white-color);
-    letter-spacing: 2px;
-}
-#detail-icon4-service-page{
-    display: flex;
-    margin-left: 870px;
-    margin-top: -140px;
-    cursor: pointer;
-    opacity: 0.5;
-    height: 110px;
-}
-.social-profiles-services-service-page {
- display: none;
-}
+    #details-services {
+        color: var(--gray-color);
+        margin-left: 80px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
 
-#footer-services{
-display: none;
-}
-#icon4-contact-page {
-    margin-left: 600px;
-}
+    #title-services {
+        font-size: 60px;
+        color: #ffffff;
+        margin-left: 80px;
+    }
 
-/* ---------------------------------------------------------- */
-/* contact page  */
+    #detail-icon6 {
+        display: flex;
+        margin-left: 870px;
+        margin-top: -140px;
+        cursor: pointer;
+        opacity: 0.5;
+        height: 110px;
+    }
 
-.first-row-contact {
-display: block;
-}
-.contact-informations {
-    margin-left: -130px;
-    height: 800px;
-    width: 450px;
-}
-#contact-info-title {
-    color:var(--white-color);
-    font-size: 40px;
-    font-weight: 500;
-}
-.social-box {
-    height: 88px;
-    width: 98px;
-    border-radius: 10px;
-    background-image: linear-gradient(to right bottom, rgb(32, 32, 32), rgb(19, 19, 19));
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-top: 60px;
-}
-.right {
-    margin-top: 55px;
-    margin-left: 20px;
-}
-span {
-    font-size: 25px;
-    color: rgb(135, 135, 135);
-}
-h4 {
-    color:var(--white-color);
-    font-weight: 500;
-    font-size: 20px;
-}
-#social-info-title {
-    color:var(--white-color);
-    font-size: 40px;
-    font-weight: 500;
-    margin-top: 100px;
-}
-.contact-form {
-    height: 710px;
-    width: 590px;
-    background-image: linear-gradient(to bottom right, #202020, #131313);
-    border-radius: 20px;
-    margin-left: -130px;
-    margin-top: 100px;
-}
-#lets-work-contact {
-    margin-left: 46px;
-    font-size: 40px;
-    margin-top: -10px;
-    font-weight: 500;
-    color:var(--white-color);
-    letter-spacing: 2px;
-    margin-top: -20px;
-}
-#input-text {
-    width: 465px;
-    height: 50px;
-    margin-left: 50px;
-    margin-top: 20px;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom right, #202020, #131313);
-    border: 0.1px solid gray;
-}
-#message-text {
-    width: 465px;
-    height: 200px;
-    margin-left: 50px;
-    margin-top: 20px;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom right, #202020, #131313);
-    border: 0.1px solid gray;
-}
-#send-message {
-    width: 490px;
-    height: 60px;
-    margin-top: 15px;
-    margin-left: 50px;
-    border-radius: 10px;
-    background-color: rgb(29, 29, 29);
-    border: 0.1px solid gray;
-    color:var(--white-color);
-    font-family: poppins;
-    font-size: 20px;
-    cursor: pointer;
-}
-#icon4-contact-page {
-    margin-left: 510px;
-    height: 80px;
-}
+    #icon2-services-page {
+        margin-left: 46px;
+        height: 150px;
+    }
+
+    #lets-work-services {
+        margin-left: 126px;
+        font-size: 75px;
+        margin-top: -10px;
+        font-weight: 500;
+        color: var(--white-color);
+        letter-spacing: 2px;
+    }
+
+    #detail-icon4-service-page {
+        display: flex;
+        margin-left: 870px;
+        margin-top: -140px;
+        cursor: pointer;
+        opacity: 0.5;
+        height: 110px;
+    }
+
+    .social-profiles-services-service-page {
+        display: none;
+    }
+
+    #footer-services {
+        display: none;
+    }
+
+    #icon4-contact-page {
+        margin-left: 600px;
+    }
+
+    /* ---------------------------------------------------------- */
+    /* contact page  */
+
+    .first-row-contact {
+        display: block;
+    }
+
+    .contact-informations {
+        margin-left: -130px;
+        height: 800px;
+        width: 450px;
+    }
+
+    #contact-info-title {
+        color: var(--white-color);
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .social-box {
+        height: 88px;
+        width: 98px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right bottom, rgb(32, 32, 32), rgb(19, 19, 19));
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .right {
+        margin-top: 55px;
+        margin-left: 20px;
+    }
+
+    span {
+        font-size: 25px;
+        color: rgb(135, 135, 135);
+    }
+
+    h4 {
+        color: var(--white-color);
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    #social-info-title {
+        color: var(--white-color);
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 100px;
+    }
+
+    .contact-form {
+        height: 710px;
+        width: 590px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border-radius: 20px;
+        margin-left: -130px;
+        margin-top: 100px;
+    }
+
+    #lets-work-contact {
+        margin-left: 46px;
+        font-size: 40px;
+        margin-top: -10px;
+        font-weight: 500;
+        color: var(--white-color);
+        letter-spacing: 2px;
+        margin-top: -20px;
+    }
+
+    #input-text {
+        width: 465px;
+        height: 50px;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border: 0.1px solid gray;
+    }
+
+    #message-text {
+        width: 465px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom right, #202020, #131313);
+        border: 0.1px solid gray;
+    }
+
+    #send-message {
+        width: 490px;
+        height: 60px;
+        margin-top: 15px;
+        margin-left: 50px;
+        border-radius: 10px;
+        background-color: rgb(29, 29, 29);
+        border: 0.1px solid gray;
+        color: var(--white-color);
+        font-family: poppins;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #icon4-contact-page {
+        margin-left: 510px;
+        height: 80px;
+    }
 }
