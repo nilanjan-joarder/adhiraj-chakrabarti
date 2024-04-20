@@ -898,16 +898,19 @@ textarea {
 
 #instagram-icon-credentials {
     height: 25px;
+    padding-top: 5px;
 }
 
 #linkedin-icon-credentials {
     height: 35px;
     margin-left: -2px;
+    padding-top: 5px;
 }
 
 #facebook-icon-credentials {
     height: 25px;
     margin-left: 2px;
+    padding-top: 5px;
 }
 
 #website-icon-credentials {
@@ -974,6 +977,10 @@ textarea {
     font-size: 15px;
 }
 
+li{
+    color:var(--white-color);
+    padding-bottom: 30px;
+}
 #credential-description {
     color:var(--white-color);
     padding-bottom: 30px;
@@ -1996,7 +2003,15 @@ opacity: 1;
         color:var(--white-color);
         font-size: 40px;
         margin-top: 100px;
-    }#credential-description {
+    }
+    li{
+        color:var(--white-color);
+        padding-bottom: 30px;
+        font-size: 20px;
+
+    }
+    
+    #credential-description {
         color:var(--white-color);
         padding-bottom: 30px;
         font-size: 20px;
