@@ -32,6 +32,7 @@ body {
     align-items: center;
     column-gap: 310px;
     margin-left: 150px;
+    /* width: fit-content; */
 }
 
 #hambarger {
@@ -1451,10 +1452,12 @@ li {
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
+/* MOBILE SCREEN RESPONSIVENESS */
 
 
+/* For Smaller Smartphones */
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:480px) {
     .nav-bar {
         display: none;
     }
@@ -1985,14 +1988,14 @@ li {
         font-size: 50px;
         color: var(--white-color);
         margin-top: 120%;
-        margin-left: 46%;
+        margin-left: 35%;
     }
 
     .container {
         display: flex;
         justify-content: center;
-        margin-top: 134%;
-        margin-left: 20px;
+        margin-top: 130%;
+        margin-left: 10px;
     }
 
     #footer {
@@ -2570,5 +2573,188 @@ li {
     #icon4-contact-page {
         margin-left: 510px;
         height: 80px;
+    }
+}
+
+
+
+
+
+/* For Tablets and Larger smartphones */
+
+
+@media only screen and (max-width:768px) and (min-width:481px) {
+    .nav-bar {
+        font-size: 17px;
+        margin-top: 20px;
+        column-gap: 110px;
+    }
+    .logo {
+        height: 50px;
+        width: 100px;
+        margin-left: 260px;
+    }
+    .profile {
+        height: 400px;
+        width: 780px;
+        margin-left: -50px;
+    }
+    #profile-picture {
+        height: 310px;
+       
+        margin-left: 46px;
+        margin-top: 50px;
+    }
+    #profession {
+        margin-top: -315px;
+        margin-left: 380px;
+       
+    width: fit-content;
+    }
+    #full-name {
+        font-size: 40px;
+        margin-left: 380px;
+
+        margin-top: 20px;
+    width: fit-content;
+    }
+    #job-title {
+        margin-top: 20px;
+        margin-left: 380px;
+     
+        width: fit-content;
+    }
+    #detail-icon1 {
+        margin-left: 680px;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    .featured {
+        height: 60px;
+        width: 780px;
+    
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+    marquee {
+        display: flex;
+      
+        margin-top: 15px;
+    }
+    .credentials {
+        margin-top: 100px;
+        margin-left: -800px;
+        height: 340px;
+        width: 382.5px;
+       
+    }
+    #signature {
+        padding-top: 30px;
+        width: 380px;
+    }
+    #details {
+      
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    #title {
+        font-size: 30px;
+       
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    #detail-icon2 {
+       
+        margin-left: 280px;
+        margin-top: -75px;
+
+    }
+    .blog {
+        height: 340px;
+        width: 382.5px;
+        margin-top: 100px;
+    }
+    #blog-image {
+        height: 145px;
+        margin-left: 135px;
+        margin-top: 25px;
+    }
+    .projects {
+        height: 340px;
+        width: 382.5px;
+
+        margin-left: -50px;
+    }
+    #myworks {
+        font-size: 30px;
+       
+        margin-left: 105px;
+        margin-top: 26px;
+    }
+    #myworks-image {
+        height: 100px;
+        width: 180px;
+        border-radius: 5px;
+        margin-left: 100px;
+        padding-bottom: 0px;
+    }
+    .social-profiles {
+        height: 340px;
+        width: 382.5px;
+      
+        margin-top: -680px;
+        margin-left: 350px;
+    }
+    .profile-box {
+        height: 140px;
+        width: 290px;
+    }
+    .social-icons {
+        margin-top: 20px;
+    }
+    .social {
+        height: 100px;
+        width: 100px;
+    }
+    .services {
+        height: 320px;
+        width: 780px;
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+    .services-offered {
+
+        padding-bottom: 30px;
+        margin-top: 80px;
+    }
+    #detail-icon3 {
+        margin-left: 680px;
+        margin-top: -75px;
+    }
+    .experience {
+        height: 320px;
+        width: 780px;
+        margin-left: -50px;
+    }
+    .experiences {
+        height: 220px;
+        width: 200px;
+        }
+    .connect {
+        height: 320px;
+        width: 780px;
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+    #lets-work {
+        margin-left: 46px;
+        font-size: 50px;
+        margin-top: 0px;
+       }
+    footer {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        width: 1010px;
     }
 }
