@@ -30,9 +30,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 310px;
-    margin-left: 150px;
-    /* width: fit-content; */
+    column-gap: 70px;
+    /* margin-left: 150px; */
+    width: 100vw;
+    
+}
+.nav-bar-profile{
+    font-size: 17px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    /* margin-left: 150px; */
+    width: 100vw;
+
 }
 
 #hambarger {
@@ -47,15 +59,12 @@ body {
     display: none;
 }
 
-.links {
-    display: flex;
-    column-gap: 50px;
-}
+
 
 .logo {
     height: 50px;
     width: 100px;
-    margin-left: -150px;
+    /* margin-left: -150px; */
 }
 
 .home {
@@ -1043,19 +1052,19 @@ textarea {
 #education-period-credentials {
     margin-top: 20px;
     color: var(--gray-color);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #education-company-credentials {
     margin-top: 5px;
     color: var(--blue-color);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #education-domain-credentials {
     margin-top: 5px;
     color: var(--gray-color);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 li {
@@ -1459,6 +1468,9 @@ li {
 
 @media only screen and (max-width:480px) {
     .nav-bar {
+        display: none;
+    }
+    .nav-bar-profile {
         display: none;
     }
 
@@ -2585,19 +2597,27 @@ li {
 
 @media only screen and (max-width:768px) and (min-width:481px) {
     .nav-bar {
-        font-size: 17px;
-        margin-top: 20px;
-        column-gap: 110px;
+        font-size: 20px;
+        margin-top: -100px;
+        column-gap: 50px;
+        width: 100%;
+        position: fixed;
+        height: 80px;
+        background-color: #131313;
+        z-index: 99;
     }
+    
+
     .logo {
         height: 50px;
         width: 100px;
-        margin-left: 260px;
+        
     }
     .profile {
         height: 400px;
         width: 780px;
         margin-left: -50px;
+        margin-top: 50px;
     }
     #profile-picture {
         height: 310px;
@@ -2757,4 +2777,568 @@ li {
         justify-content: center;
         width: 1010px;
     }
+
+/* ----------------------------------------------------------- */
+/* profile page */
+.nav-bar-profile{
+    font-size: 20px;
+    margin-top: -150px;
+    column-gap: 50px;
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: #131313;
+    z-index: 99;
+}
+.first-row-profile {
+    width: fit-content;
+    display: block;
+}
+.profile-photo {
+    margin-top: 150px;
+    height: 460px;
+    width: 470px;
+    margin-left: 265px;
+
+}
+#profile-photo {
+    height: 380px;
+    border-radius: 30px;
+}
+#self-summary {
+    margin-left: 130px;
+    margin-top: 20px;
+    }
+.summary {
+    height: 400px;
+    width: 780px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+}
+#full-name-profile {
+    font-size: 40px;
+    color: var(--white-color);
+    margin-left: 50px;
+}
+#name-description-profile {
+    width: 680px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: var(--gray-color);
+    font-size: 20px;
+}
+.second-row-profile {
+    width: fit-content;
+    display: block;
+}
+.experience-profile {
+   height: 710px;
+    width: 780px;
+    margin-top: -30px;
+    margin-left: 120px;
+}
+#box-title-profile {
+    font-size: 40px;
+    margin-left: 46px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+#experience-period {
+    font-size: 20px;
+}
+#experience-domain {
+   font-size: 20px;
+}
+#experience-company {
+   font-size: 20px;
+}
+.education-profile {
+    height: 450px;
+    width: 780px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    margin-left: 120px;
+    margin-top: -30px;
+}
+#education-period {
+    margin-left: 46px;
+    margin-top: 20px;
+    color: var(--gray-color);
+    font-size: 20px;
+}
+#education-company {
+    margin-left: 46px;
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#education-domain {
+    margin-left: 46px;
+    margin-top: 5px;
+    color: var(--gray-color);
+    font-size: 20px;
+}
+.connect-profile {
+    height: 320px;
+    width: 780px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#lets-work-profile {
+    margin-left: 46px;
+    font-size: 50px;
+    margin-top: -10px;
+    font-weight: 500;
+    color: var(--white-color);
+    letter-spacing: 2px;
+}
+#detail-icon5 {
+    display: flex;
+    margin-left: 650px;
+    margin-top: -92px;
+    opacity: 0.5;
+}
+/* -------------------------------------------------------------------------- */
+/* credentials page */
+
+.first-row-credentials {
+    width: fit-content;
+    display: block;
+
+
+}
+.left-credential {
+    width: 450px;
+    height: fit-content;
+    position: relative;
+    top: 20px;
+}
+.profile-box-credential {
+    height: 920px;
+    width: 620px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-left: 00px;
+}
+#profile-picture-credentials {
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+#full-name-credentials {
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 110px;
+    width: fit-content;
+    margin-top: 20px;
+}
+#email-credentials {
+    font-size: 20px;
+    color: var(--gray-color);
+    margin-left: 200px;
+    width: fit-content;
+    margin-top: 10px;
+}
+.social-icons-credentials {
+    display: flex;
+    width: fit-content;
+    margin-left: 80px;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+.social-icons-box-credentials {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border: 0.5px solid gray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#contact-me {
+    width: 400px;
+    height: 60px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #252525;
+    color: var(--white-color);
+    border: none;
+    font-family: poppins;
+    font-size: 30px;
+}
+.right-credential {
+    width: 820px;
+    height: fit-content;
+    margin-left: -100px;
+    margin-top: 40px;
+}
+#about-me-credentials {
+    font-size: 30px;
+}
+#about-me-description-credentials {
+font-size:15px;}
+
+#experience-credentials {
+    color: var(--white-color);
+    font-size: 30px;
+    margin-top: 100px;
+}
+#experience-credentials
+ {
+    font-size: 30px;
+}
+#experience-period-credentials{
+    font-size: 30px;
+}
+#experience-domain-credentials{
+    font-size: 20px;
+}
+#education-credentials {
+    font-size: 30px;
+    margin-top: 100px;
+}
+#education-period-credentials  
+{
+  font-size: 20px;
+}
+
+#education-period-credentials{
+    font-size: 20px;
+}
+#education-period-credentials {
+    font-size: 20px;
+}
+#skill-credentials {
+    font-size: 30px;
+    margin-top: 100px;
+}
+.skills{
+    column-gap: 420px;
+}
+.skill {
+    font-size: 20px;
+    
+}
+#skill-description {
+    font-size: 15px;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+/* blogs page  */
+#blog-blogs-main {
+    width: 570px;
+    height: 800px;
+    margin-left: 220px;
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 30px;
+    visibility: visible;
+}
+#blog-photographs-main {
+    width: 570px;
+    height: 800px;
+    margin-left: 220px;
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 30px;
+    visibility: visible;
+}
+#blog-thoughts-main {
+    width: 570px;
+    height: 800px;
+    margin-left: 220px;
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 30px;
+    visibility: visible;
+}
+.nav-bar-blogs {
+    font-size: 25px;
+}
+
+/* ----------------------------------------------------
+Project page  */
+.coming-soon-div {
+   
+    margin-top: 100px;
+}
+/* --------------------------------------------------------------------------------------------------------
+ Contact page*/
+ .first-row-contact {
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.contact-informations {
+    height: 800px;
+    width: 480px;
+    margin-left: -150px;
+    margin-top: 170px;
+}
+#contact-info-title {
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+}
+.contact-form {
+    height: 730px;
+    width: 550px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+#icon4-contact-page {
+    margin-left: 510px;
+}#lets-work-contact {
+    margin-left: 46px;
+    font-size: 40px;
+    margin-top: -10px;
+    font-weight: 500;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    margin-top: -50px;
+    width: 220px;
+}
+#input-text {
+    width: 430px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border: 0.1px solid gray;
+}
+#message-text {
+    width: 430px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border: 0.1px solid gray;
+}
+#send-message {
+    width: 450px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    border: 0.1px solid gray;
+    color: var(--white-color);
+    font-family: poppins;
+    font-size: 15px;
+    cursor: pointer;
+}
+#social-info-title {
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+
+/* -----------------------------------------------------------------
+service page */
+
+.first-row-services {
+    display: block;
+}
+.left-service {
+    width: 302px;
+    height: 544px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-left: -160px;
+}
+#services-images-1 {
+    margin-top: 65px;
+    height: 50px;
+    margin-left: 40px;
+}
+#services-description-1 {
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-top: -45px;
+    margin-left: 130px;
+    font-size: 14px;
+}
+#services-images-2 {
+    margin-top: 90px;
+    height: 50px;
+    margin-left: 55px;
+}
+#services-description-2 {
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-top: -45px;
+    margin-left: 130px;
+    font-size: 14px;
+}
+#services-images-3 {
+    margin-top: 90px;
+    height: 50px;
+    margin-left: 40px;
+    width: 50px;
+}
+#services-description-3 {
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-top: -55px;
+    margin-left: 130px;
+    font-size: 14px;
+    width: 150px;
+}
+#services-images-4 {
+    margin-top: 90px;
+    height: 40px;
+    margin-left: 38px;
+}
+#services-description-4 {
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-top: -40px;
+    margin-left: 130px;
+    font-size: 14px;
+}
+#my-offerings {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -01px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-left: 285px;
+    width: 400px;
+    margin-top: -560px;
+}
+.right-service {
+    width: 650px;
+    height: 750px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-top: 18px;
+    margin-left: 166px;
+    padding-top: 1px;
+}
+.service-row-1 {
+   display: block;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.service-row-2 {
+    display: block;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+     margin-left: 20px;
+ }
+.services-details {
+    height: 164px;
+    width: 610px;
+    background-image: linear-gradient(to bottom right, #313131, #131313);
+    border-radius: 20px;
+    display: block;
+    /* padding-top: 6px; */
+    /* display: flex; */
+}
+#service-heading-1 {
+    color: var(--gray-color);
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 200px;
+    height: fit-content;
+    padding-top: 20px;
+}
+#service-heading-description-1 {
+    color: var(--white-color);
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 270px;
+    height: fit-content;
+}
+#service-heading-2 {
+    color: var(--gray-color);
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 200px;
+    padding-top: 15px;
+}
+#service-heading-description-2 {
+    color: var(--white-color);
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 270px;
+}
+#service-heading-3 {
+    color: var(--gray-color);
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 200px;
+    padding-top: 15px;
+}
+#service-heading-description-3 {
+    color: var(--white-color);
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 450px;
+}
+#service-heading-4 {
+    color: var(--gray-color);
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 200px;
+    padding-top: 15px;
+}
+#service-heading-description-4 {
+    color: var(--white-color);
+    margin-left: 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 270px;
+}
+.credentials-services {
+    margin-top: -250px;
+    margin-left: 20px;
+    height: 250px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+}
+.connect-services {
+    height: 250px;
+    width: 640px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.social-profiles-services-service-page {
+    height: 250px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-top: -250px;
+    margin-left: 685px;
+    display: block;
+}
 }
