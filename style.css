@@ -613,7 +613,7 @@ footer {
 .second-row-profile {
     flex-wrap: wrap;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
 
 }
@@ -3431,9 +3431,12 @@ service page */
          margin-top: 110px;
       }
      .second-row-profile {
-         margin-top: 20px;
+         margin-top: 50px;
+         column-gap: 50px;
      }
-
+     .connect-profile {
+        margin-left: 600px;
+     }
      /* --------------------------------------------------------------------------------------------------------------------- */
 
     /* Credential page */
