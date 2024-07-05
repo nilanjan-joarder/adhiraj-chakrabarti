@@ -70,3 +70,18 @@ nav_photograph.addEventListener("click", function() {
 nav_thought.addEventListener("click", function() {
     showSection(blog_thoughts_main, nav_thought);
 });
+
+
+function openFullscreen(element) {
+  const imgSrc = element.querySelector('img').src;
+  const fullscreenOverlay = document.getElementById('fullscreenOverlay');
+  const fullscreenImage = document.getElementById('fullscreenImage');
+
+  fullscreenImage.src = imgSrc;
+  fullscreenOverlay.classList.add('active');
+}
+
+function closeFullscreen() {
+  const fullscreenOverlay = document.getElementById('fullscreenOverlay');
+  fullscreenOverlay.classList.remove('active');
+}
