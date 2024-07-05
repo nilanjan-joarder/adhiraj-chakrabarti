@@ -1214,7 +1214,7 @@ li {
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 13%;
+    margin-top: 22%;
     margin-left: 10px;
 }
 
@@ -2356,7 +2356,7 @@ margin-left: -1090px;
     .container {
         display: flex;
         justify-content: center;
-        margin-top: 130%;
+        margin-top: 132%;
         margin-left: 10px;
     }
 
