@@ -1387,10 +1387,11 @@ li {
 /* ------------------------------------------------------------------------------------------------------------- */
 
 .first-row-services {
-    display: flex;
+    display: grid;
+    justify-content: center;
     flex-wrap: wrap;
-    height: fit-content;
-    margin-left: 180px;
+    /* height: fit-content; */
+    /* margin-left: 180px; */
     margin-top: 100px;
     column-gap: 20px;
 }
@@ -1422,10 +1423,10 @@ li {
     justify-content: center;
     align-items: center;
     height: fit-content;
-    margin-left: 70px;
+    margin-left: 430px;
     margin-bottom: 10px;
+    margin-top: -670px;
 }
-
 #services-images-1 {
     margin-top: 130px;
     height: 50px;
@@ -1570,7 +1571,7 @@ li {
 
 .credentials-services {
     margin-top: 20px;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     height: 250px;
     width: 300px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
@@ -1582,13 +1583,22 @@ li {
     width: 545px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border-radius: 20px;
-    margin-left: 500px;
-    margin-top: -250px;
+    /* margin-left: 500px; */
+    margin-top: 20px; 
+}
+.social-profiles-services-service-page {
+    height: 250px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, #202020, #131313);
+    border-radius: 20px;
+    margin-top: 20px; 
+    /* margin-left: 1065px; */
+    display: block;
 }
 
 #detail-icon4 {
     display: flex;
-    margin-left: 450px;
+    /* margin-left: 450px; */
     margin-top: -100px;
     opacity: 0.5;
 }
@@ -1647,15 +1657,6 @@ li {
     height: 100px;
 }
 
-.social-profiles-services-service-page {
-    height: 250px;
-    width: 300px;
-    background-image: linear-gradient(to bottom right, #202020, #131313);
-    border-radius: 20px;
-    margin-top: -250px;
-    margin-left: 1065px;
-    display: block;
-}
 
 .profile-box-services-service-page {
     height: 100px;
@@ -1702,13 +1703,16 @@ li {
     .nav-bar {
         display: none;
     }
+    .main {
+        justify-content: center;
+        display: grid;
+       margin-left: 400px;
+    }
 
     .nav-bar-profile {
         display: none;
     }
-.main{
-    margin-left:400px;
-}
+
     #hambarger {
         display: flex;
         height: 70px;
@@ -2213,21 +2217,21 @@ li {
 
     #blog-blogs-main {
         margin-top: 310px;
-        margin-left: 60px;
+        margin-left: 470px;
         width: 1160px;
         height: 6600px;
     }
 
     #blog-photographs-main {
         margin-top: 310px;
-        margin-left: 60px;
+        margin-left: 470px;
         width: 1160px;
         height: 9180px;
     }
 
     #blog-thoughts-main {
         margin-top: 310px;
-        margin-left: 60px;
+        margin-left: 470px;
         width: 1160px;
         height: 2000px;
     }
@@ -2384,7 +2388,7 @@ margin-left: -1090px;
 
     .first-row-credentials {
         display: block;
-margin-left:190px;
+        margin-left: 190px;
     }
 
     .profile-box-credential {
