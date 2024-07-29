@@ -34,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 70px;
-    /* margin-left: 150px; */
+    margin-left: 90px;
     width: 100vw;
 
 }
@@ -46,7 +46,7 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 70px;
-    /* margin-left: 150px; */
+    margin-left: 90px;
     width: 100vw;
 
 }
@@ -1711,6 +1711,11 @@ li {
         justify-content: center;
         display: grid;
        margin-left: 400px;
+    }
+    .main-project {
+        justify-content: center;
+        display: grid;
+       margin-left: 770px;
     }
 
     .nav-bar-profile {
