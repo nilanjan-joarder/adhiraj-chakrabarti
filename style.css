@@ -1706,7 +1706,9 @@ li {
     .nav-bar-profile {
         display: none;
     }
-
+.main{
+    margin-left:400px;
+}
     #hambarger {
         display: flex;
         height: 70px;
