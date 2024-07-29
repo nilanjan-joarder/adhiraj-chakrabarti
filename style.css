@@ -9,7 +9,10 @@
 ::-webkit-scrollbar {
     display: none;
 }
-
+.main{
+    justify-content: center;
+    display: grid;
+}
 :root {
     font-family: "Poppins", sans-serif;
     --white-color: #ffff;
@@ -65,7 +68,7 @@ body {
 .logo {
     height: 50px;
     width: 100px;
-    /* margin-left: -150px; */
+    margin-left: -150px;
 }
 
 .home {
@@ -96,8 +99,7 @@ body {
 
 .first-row {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 180px;
+    flex-wrap: wrap;    
     margin-top: 100px;
     column-gap: 15px;
     width: fit-content;
@@ -279,7 +281,7 @@ marquee {
 .second-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     margin-top: 20px;
     column-gap: 15px;
     width: fit-content;
@@ -322,7 +324,7 @@ marquee {
 #blog-blogs-main {
     width: 1250px;
     height: 930px;
-    margin-left: 150px;
+    
     margin-top: 80px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border-radius: 30px;
@@ -334,7 +336,7 @@ marquee {
     display: none;
     width: 1250px;
     height: 1100px;
-    margin-left: 150px;
+    
     margin-top: 80px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border-radius: 30px;
@@ -346,7 +348,7 @@ marquee {
     display: none;
     width: 1250px;
     height: 800px;
-    margin-left: 150px;
+
     margin-top: 80px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
     border-radius: 30px;
@@ -576,7 +578,7 @@ pre{
 .third-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     margin-top: 20px;
     column-gap: 15px;
     width: fit-content;
@@ -669,6 +671,8 @@ footer {
     display: flex;
     margin-top: 50px;
     gap: 20px;
+    justify-content: center;
+  
 }
 
 .profile-photo {
@@ -677,10 +681,9 @@ footer {
     align-items: center;
     height: 370px;
     width: 361px;
-    margin-left: 200px;
     border-radius: 30px;
     background-image: linear-gradient(to bottom right, #202020, #131313);
-
+    margin-left: -80px;
 }
 
 #profile-photo {
@@ -700,23 +703,30 @@ footer {
     align-items: center;
     height: fit-content;
     margin-left: 100px;
-
+   
 }
 
 .summary {
     height: 260px;
     width: 750px;
-    margin-left: 590px;
+    margin-left: 410px;
     margin-top: -290px;
     border-radius: 30px;
+
     background-image: linear-gradient(to bottom right, #202020, #131313);
 }
-
+#full-name-profile {
+    font-size: 30px;
+    color: var(--white-color);
+    margin-left: 50px;
+    width: fit-content;
+}
 .second-row-profile {
     flex-wrap: wrap;
     display: flex;
     gap: 30px;
     justify-content: center;
+    width: auto;
 
 }
 
@@ -734,11 +744,7 @@ footer {
     background-image: linear-gradient(to bottom right, #202020, #131313);
 }
 
-#full-name-profile {
-    font-size: 30px;
-    color: var(--white-color);
-    margin-left: 50px;
-}
+
 
 #name-description-profile {
     width: 600px;
@@ -837,7 +843,8 @@ footer {
 .first-row-contact {
     display: flex;
     gap: 20px;
-    margin-left: 200px;
+    justify-content: center;
+    /* margin-left: 200px; */
     margin-top: 100px;
 }
 
@@ -1005,10 +1012,13 @@ textarea {
 
 
 
+
 .first-row-credentials {
     display: flex;
     margin-top: 100px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    /* width: fit-content; */
+    justify-content: center;
 }
 
 .left-credential {
@@ -2356,7 +2366,7 @@ margin-left: -1090px;
     .container {
         display: flex;
         justify-content: center;
-        margin-top: 132%;
+        margin-top: 130%;
         margin-left: 10px;
     }
 
