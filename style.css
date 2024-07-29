@@ -1595,7 +1595,11 @@ li {
     /* margin-left: 1065px; */
     display: block;
 }
-
+.second-row-services{
+    justify-content:center;
+    display: flex; 
+    column-gap:20px
+}
 #detail-icon4 {
     display: flex;
     /* margin-left: 450px; */
@@ -2566,9 +2570,7 @@ margin-left: -1090px;
 
     /* ------------------------------------------------------------------------------------------- */
     /* services offered page */
-    .first-row-services {
-        display: block;
-    }
+    
 
     #my-offerings {
         color: #ffffff;
@@ -2646,13 +2648,20 @@ margin-left: -1090px;
         margin-left: 70px;
         display: block;
     }
-
+    .second-row-services{
+        justify-content:center;
+        display: block; 
+        column-gap:20px
+    }
     .extra2 {
         display: block;
         width: 1300px;
         height: 1px;
     }
-
+    .first-row-services {
+        display: block;
+        margin-left: 180px;
+    }
     #services-images-1 {
         margin-top: 190px;
         height: 120px;
